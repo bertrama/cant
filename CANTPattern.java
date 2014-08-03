@@ -18,7 +18,7 @@ public class CANTPattern {
     this.net = net;
     this.id = id;
     this.name = name;
-    init(points);
+    init(points);	
   }
   
   //create a pattern from a set of individual points.
@@ -110,6 +110,8 @@ public class CANTPattern {
     }
 
   //embedded class
+  //undone there are some bugs here.  Problems with rectangles like 0-300 in a net
+  //with 20 columns, and 19-25 in a similar net.
   public class Rectangle{
     private int startIndex;
     private int endIndex;

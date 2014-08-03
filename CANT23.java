@@ -18,7 +18,7 @@ public class CANT23 extends Applet{
   public static int CANTStep = 0;
   public static int delayBetweenSteps = 20;
   public static CANTExperiment experiment;
-  protected static CANT23.WorkerThread workerThread;
+  public static CANT23.WorkerThread workerThread;
 
   public static void setRunning(boolean status) {isRunning = status;}
 
@@ -26,7 +26,6 @@ public class CANT23 extends Applet{
 System.out.println("Start CANT ");
     makeNewSystem();
   }
-  
 
   protected static void makeNewSystem() {
   	nullNet = new CANTNet();
@@ -46,10 +45,18 @@ System.out.println("Start CANT ");
 	}
     while (enum.hasMoreElements());
 	
-	
     CANTStep=0;  
   }
   
+  public static void saveAllNets() {
+    System.out.println("save all nets");
+  
+    Enumeration enum = nets.elements();
+    while (enum.hasMoreElements()) {
+      CANTNet net = (CANTNet)enum.nextElement();
+      net.write();
+    }
+  }
   
   //set up the experiment specific parameters.
   private static void initializeExperiment() {
@@ -84,12 +91,6 @@ System.out.println("initialize Experiment ");
 	  }
   }
 
-  public void init() {System.out.println("Init");}
-
-  private static void connectNets(CANTNet net1, CANTNet net2) {
-    net1.setOtherConnections(net2,5);
-    net2.setOtherConnections(net1,5);
-  }
 
 /*
     public static void setConnectionToOther(CANTNet fromNet, int fromNeuronID, double weight,

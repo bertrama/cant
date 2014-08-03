@@ -1,0 +1,1 @@
+C:\j2sdk1.4.2_08\bin\javac CANT23.java CANTCheckboxMenuItem.java CANTExperiment.java CANTFrame.java CANTMenuItem.java CANTNet.java CANTNeuron.java CANTPattern.java Measure.java NetManager.java Synapse.java CANT23Parse2.java Parse2Net.java Parse2Experiment.java

@@ -8,11 +8,11 @@ public class CANTNeuronFastBind extends CANTNeuron {
   	super(neuronID, net);
   } 
   
-  double fastBindWeightChange = 0.01; 
+  private double fastBindWeightChange = 0.004; 
   
   public void fastLearn() {
   	double weight = 0.0;
-    if (getFired())
+    if (getFired() && (!getInhibitory()))
 //System.out.println("fastLearn " + id);	
 	  for (int synapseIndex = 0; synapseIndex < getCurrentSynapses(); synapseIndex++)
 	  {
@@ -21,6 +21,7 @@ public class CANTNeuronFastBind extends CANTNeuron {
 		  {
 		  weight = synapses[synapseIndex].getWeight();
 		  weight += parentNet.getLearningRate();
+		  if (weight > 1.0) weight = 1.0;
 	  	  synapses[synapseIndex].setWeight(weight);
 		  }
 	  } 
@@ -31,9 +32,15 @@ public class CANTNeuronFastBind extends CANTNeuron {
 	  {
 	    weight = synapses[synapseIndex].getWeight();
 		if (isInhibitory()) 
+		  {
 		  weight += fastBindWeightChange;
+		  if (weight > 0) weight = -.001;
+		  }
 		else   
+		  {
           weight -= fastBindWeightChange;
+	      if (weight < 0) weight = .001;
+	      }
 	    synapses[synapseIndex].setWeight(weight);
 	  }
 	}

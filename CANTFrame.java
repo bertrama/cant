@@ -9,7 +9,6 @@ public class CANTFrame extends Frame implements ActionListener, ItemListener{
 
 private  final Color BACKGROUND_COLOR = new Color(100,130,180);
 
-
 private CANTNet parentNet;
 public Matrix matrix;	   //The grid
 private Label  timeStepLabel;
@@ -40,6 +39,9 @@ private CheckboxMenuItem learningOn;
 
 private Menu netMenu;
 private MenuItem saveNet;
+private MenuItem saveAllNets;
+private MenuItem readNet;
+private MenuItem readAllNets;
 
 private Menu setParametersMenu;
 private CANTMenuItem Fatigue_Rate; //The following 8 items in Neuron.java
@@ -58,6 +60,7 @@ private Menu measureMenu;
 private MenuItem measureCo1;
 private MenuItem measureCo2;
 private MenuItem printCorrelation;
+private MenuItem kludge;
 
 
 public CANTFrame(CANTNet net,int cols, int rows,boolean isBase) {
@@ -147,6 +150,18 @@ public CANTFrame(CANTNet net,int cols, int rows,boolean isBase) {
   saveNet = new MenuItem("Save Network");
   netMenu.add(saveNet);
   saveNet.addActionListener(this);
+  readNet = new MenuItem("Read Network");
+  netMenu.add(readNet);
+  readNet.addActionListener(this);
+  if (parentNet.getName().compareTo("BaseNet") == 0)
+    {
+    saveAllNets = new MenuItem("Save All Networks");
+    netMenu.add(saveAllNets);
+    saveAllNets.addActionListener(this);
+    readAllNets = new MenuItem("Read All Networks");
+    netMenu.add(readAllNets);
+    readAllNets.addActionListener(this);
+    }
 
 
   //Set Parameters Menu
@@ -172,6 +187,9 @@ public CANTFrame(CANTNet net,int cols, int rows,boolean isBase) {
   printCorrelation = new MenuItem("Print Correlation");
   measureMenu.add(printCorrelation);
   printCorrelation.addActionListener(this);
+  kludge = new MenuItem("kludge");
+  measureMenu.add(kludge);
+  kludge.addActionListener(this);
 
   bar.add(runMenu);
   bar.add(netMenu);
@@ -190,7 +208,8 @@ public void actionPerformed (ActionEvent evt) {
   else if (evt.getSource()==stepButton) {
     CANT23.setRunning(false);
     //need to call run all one step to update all nets.
-    parentNet.runAllOneStep(CANT23.CANTStep++);
+    parentNet.runAllOneStep(CANT23.CANTStep);
+	CANT23.CANTStep++;
     //CANT23.runOneStep(CANT23.CANTStep);
   }
    else if (evt.getSource()== resetRun) {
@@ -210,6 +229,17 @@ public void actionPerformed (ActionEvent evt) {
   }
   else if (evt.getSource() == saveNet ) {
     parentNet.write();
+  }
+  else if (evt.getSource() == saveAllNets ) {
+	CANT23.saveAllNets();      
+  }
+  else if (evt.getSource() == readNet ) {
+    parentNet.readNet(false);  //crhz undone should be true
+  }
+  else if (evt.getSource() == readAllNets ) {
+  	parentNet.readAllNets();
+	
+	parentNet.readBetweenAllNets();	  
   }
    else if (evt.getSource()== selectPattern) {
       userParamField.setText(
@@ -278,6 +308,10 @@ public void actionPerformed (ActionEvent evt) {
       OutputString = OutputString + parentNet.measure.Measure() + "\n";
       System.out.println(OutputString);      
 	  }
+   else if (evt.getSource()== kludge) {
+      String OutputString = "kludge ";
+      parentNet.kludge();      
+     }
    else if (evt.getSource()== PatternModifier) {
       //UserParamField.setText(Integer.toString(parentNet.inputPattern.patternModifier));
       userParamType=25;

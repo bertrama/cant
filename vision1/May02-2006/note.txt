@@ -1,3 +1,0 @@
-This should link right into the top level CANT23.  It 
-gets a neuron to fire in V2 when the triangle is present in pretty much any
-position.

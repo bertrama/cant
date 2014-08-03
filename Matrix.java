@@ -2,13 +2,14 @@ import java.awt.*;
 
 public class Matrix extends Panel{
 
-    private static final int TOP_BORDER=10, LEFT_BORDER=10;
-    public static final int SQUARE_SIZE = 12;
+  private static final int TOP_BORDER=10, LEFT_BORDER=10;
+  public static final int SQUARE_SIZE = 6;//12;
 
-    private int cols,rows;
-    private int[][] cells;
-    private String[] textToPrint;
-    private int numTexts=0;
+  private int cols,rows;
+  private int[][] cells;
+  private String[] textToPrint;
+  private int [] textPosToPrint=new int[20];
+  private int numTexts=0;
 
 
     public Matrix (int Cols, int Rows) {
@@ -16,7 +17,8 @@ public class Matrix extends Panel{
       rows = Rows;
       this.setBounds(LEFT_BORDER, TOP_BORDER, cols*SQUARE_SIZE, rows*SQUARE_SIZE);
       cells=new int [cols][rows];
-	  textToPrint=new String[10];
+	  textToPrint=new String[20];
+      textPosToPrint[0] = -1;
       clear();
     }
 	
@@ -41,6 +43,20 @@ public class Matrix extends Panel{
     }
 
 
+  public void addStringsToPrint(String s, int hPos) 
+  {
+  	try {
+      textToPrint[numTexts] = new String(s);
+	  textPosToPrint[numTexts] = hPos;
+      numTexts++;
+    }
+   catch (Exception e) {
+        System.err.println("add Strings in matrix died" +
+                             e.toString());
+        System.exit(1);  }
+    
+  }
+
   public void addStringsToPrint(String s) 
   {
   	try {
@@ -60,7 +76,10 @@ public class Matrix extends Panel{
 	{
 //System.out.println("prints "+textToPrint[i]+i);
       g.setColor(Color.black);
-	  g.drawString(textToPrint[i],400,360*(i+1));
+	  if (textPosToPrint[0] > 0)
+	    g.drawString(textToPrint[i],400,textPosToPrint[i]);
+	  else	
+	    g.drawString(textToPrint[i],400,360*(i+1));
 	}
   }
 

@@ -1,6 +1,0 @@
-		<Patterns>
-			<Pattern Name="Mammal"  Number="1" >
-				<Rectangle StartIndex="240" EndIndex="399" />
-				<Rectangle StartIndex="640" EndIndex="719" />
-			</Pattern>
-		</Patterns>

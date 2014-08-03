@@ -53,6 +53,8 @@ public class CANTNet {
 	  {return (CANTPattern)patterns.get(index);}
   public int getRows() {return cols;}
   public int getCols() {return cols;}
+  public int size() {return (cols*rows);}
+  public int getSize() {return (cols*rows);}
   public String getName() {return name;}
   public void setLearningOn(int newLearningOn) 
     {learningOn=newLearningOn;}
@@ -130,8 +132,7 @@ public class CANTNet {
     public void setRecordingActivation(boolean rA) {recordingActivation = rA;}
 	
 	//----real code starts here----
-    public CANTNet(){
-    }
+  public CANTNet(){}
 
   public CANTNet(String name,int cols, int rows,int topology){
     this.cols = cols;
@@ -139,6 +140,7 @@ public class CANTNet {
     this.name = name;
     this.topology = topology;
 	measure = new Measure(cols*rows);
+	netFileName = name + ".dat";
   }
   
   public CANTNet getNewNet(String name,int cols, int rows,int topology){
@@ -149,15 +151,108 @@ public class CANTNet {
   
 	
   public void initializeNeurons() {
-    neurons = new CANTNeuron[cols*rows];
-    for(int i=0;i< cols*rows;i++)
-      neurons[i] = new CANTNeuron(totalNeurons++,this);
+  	createNeurons();
     if (topology < 0){
       setConnections(0,size());
     } 
 	else System.out.println("bad topology specified "+ topology);
   }
 	
+  //---------------IO Functions -------
+  protected void createNeurons() {
+  	totalNeurons = 0;
+  	neurons = new CANTNeuron[cols*rows];
+  	for(int i=0;i< cols*rows;i++)
+  	  neurons[i] = new CANTNeuron(totalNeurons++,this);
+  }
+
+  public void readBetweenAllNets() {
+    System.out.println("CANT23 read Between Connections Called: None Will Be Read");
+  //if you get this message and you want to read connections between nets,
+  //you need to put it in the subclass.
+  }
+  
+  private LineNumberReader inputFile;
+  private void openReadFile() {
+    DataInputStream dIS;
+    InputStreamReader inputSR;
+ 
+   try{
+     dIS = new DataInputStream(new FileInputStream(netFileName));
+     inputSR = new InputStreamReader(dIS);
+     inputFile = new LineNumberReader (inputSR);
+   }
+   
+   catch (IOException e) {
+     System.err.println("input file not opened properly\n" +
+                         e.toString());
+     System.exit(1);
+   }
+  }
+
+  public static void readAllNets() {
+    System.out.println("read all nets");
+
+    Enumeration enum = CANT23.nets.elements();
+    while (enum.hasMoreElements()) {
+      CANTNet net = (CANTNet)enum.nextElement();
+      net.readNet(false);
+    }	
+  }
+  
+  protected void readConnectTo(CANTNet toNet) {
+    System.out.println("read Between " +getName() + " and " + toNet.getName());
+    String inputLine;
+    openReadFile();  
+    try {
+      inputLine = inputFile.readLine(); //read row
+      inputLine= inputFile.readLine();  //read col
+
+
+      //read the neurons
+      for (int cNeurons=0; cNeurons < (rows*cols); cNeurons++) {
+      	neurons[cNeurons].readNeuronConnectTo(inputFile,toNet);
+      }
+      
+      inputFile.close();
+      }
+     catch (IOException e) {
+      System.err.println("input file not read properly\n" +
+                           e.toString());
+      System.exit(1);}
+  }
+  
+  public void readNet(boolean readInterConnections){
+    System.out.println("read net " + netFileName);  
+    String inputLine;
+
+    openReadFile();
+   
+    try {
+      inputLine = inputFile.readLine();
+      rows=Integer.parseInt(inputLine);
+      System.out.print ( Integer.toString(rows) + "\n");
+
+      inputLine= inputFile.readLine();
+      cols=Integer.parseInt(inputLine);
+      System.out.print ( Integer.toString(cols) + "\n");
+
+      //Create new neurons
+	  createNeurons();
+
+      //read the neurons
+      for (int cNeurons=0; cNeurons < (rows*cols); cNeurons++) {
+	  	neurons[cNeurons].readNeuron(inputFile,readInterConnections);
+      }
+	  
+      inputFile.close();
+      }
+     catch (IOException e) {
+      System.err.println("input file not read properly\n" +
+                           e.toString());
+      System.exit(1);}
+  }
+
   public void write(){
     DataOutputStream output;
    
@@ -201,9 +296,7 @@ public class CANTNet {
     public void addPattern(CANTPattern pattern) {
       patterns.add(pattern);
     }
-	
-  public int size() {return (cols*rows);}
-	
+		
   public void clear() {
     for (int cNeuron = 0 ; cNeuron < size(); cNeuron++)
       neurons[cNeuron].clear();
@@ -255,7 +348,7 @@ public class CANTNet {
 
     //with a probability lessening as distance increases
     if (Math.random() < (1.0 / (distance * connectivity)))
-    addConnection(fromNeuron,toNeuron,weight);
+      addConnection(fromNeuron,toNeuron,weight);
 
     //call for children if they're close.
     if (distance < 4) {
@@ -299,7 +392,12 @@ public class CANTNet {
   
   protected void setConnectionsRandomly(int neuronNum,int numConnections, double weight) {
     for (int connection=0; connection < numConnections; connection++)
+	  {
+	  int curConnections=neurons[neuronNum].getCurrentSynapses();
 	  addConnection(neuronNum,(int)(Math.random()*size()),weight);
+      if (curConnections==neurons[neuronNum].getCurrentSynapses())
+	    connection--;
+	  }
   }
 
   public int getActives() {
@@ -344,6 +442,7 @@ public class CANTNet {
   public void learn() {
     if (learningOn == 0) return;
 //System.out.println(getName() + " " +  axonalStrengthMedian + " " + saturationBase);
+
 
     int totalNeurons = size();
     for (int neuronIndex = 0; neuronIndex < totalNeurons; neuronIndex++) 
@@ -430,6 +529,7 @@ public class CANTNet {
 	  (cantStep% cyclesPerRun > cyclesToStimulatePerRun) &&
       (allowRunOn))
       return;
+	  
     CANTPattern pattern = (CANTPattern)patterns.get(curPattern);
 	int neuronsToStimulateNow = neuronsToStimulate > pattern.size()?pattern.size():neuronsToStimulate;
     for (int i= 0; i < neuronsToStimulateNow; i++) {
@@ -526,6 +626,11 @@ System.out.println("total excitatory neurons = "+inhibitoryCount);
 	  
     System.out.println(getName() + " "+neuronsFired+ " ");
 	}
+	
+  public void kludge() {
+  //this is just a function for debugging purposes.  Subclass it so you can
+  //call it from the interface.
+  }
 
 private void printAverageFatigue(){
   float averageFatigue=0;
@@ -541,7 +646,6 @@ private void printAverageFatigue(){
 }
 
 
-//undone it should be removed
     public boolean selectPattern(int patternNum) {
       if (patternNum >= patterns.size() || patternNum<0)
         return false ;
@@ -549,6 +653,7 @@ private void printAverageFatigue(){
       ((CANTPattern)patterns.get(curPattern)).arrange(neuronsToStimulate);
       return true;
     }
+	
     public void writeParameters() {
            int LearningValue;
            DataOutputStream OutputFile;

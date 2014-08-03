@@ -1,0 +1,228 @@
+<Nets>
+	<Net Name ="BaseNet" Cols ="30" Rows="80" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "0.8" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="50" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="1000" >
+		<Patterns>
+			<Pattern Name="WordFollow"  Number="0" >
+				<Rectangle StartIndex="0" EndIndex="149" />
+			</Pattern>
+			<Pattern Name="WordMe"  Number="1" >
+				<Rectangle StartIndex="150" EndIndex="299" />
+			</Pattern>
+			<Pattern Name="WordPeriod"  Number="2" >
+				<Rectangle StartIndex="300" EndIndex="449" />
+			</Pattern>
+			<Pattern Name="WordMove"  Number="3" >
+				<Rectangle StartIndex="750" EndIndex="899" />
+			</Pattern>
+			<Pattern Name="WordLeft"  Number="4" >
+				<Rectangle StartIndex="1050" EndIndex="1199" />
+			</Pattern>
+			<Pattern Name="WordTurn"  Number="5" >
+				<Rectangle StartIndex="600" EndIndex="749" />
+			</Pattern>
+			<Pattern Name="WordToward"  Number="6" >
+				<Rectangle StartIndex="2250" EndIndex="2399" />
+			</Pattern>
+			<Pattern Name="WordThe"  Number="7" >
+				<Rectangle StartIndex="2100" EndIndex="2149" />
+			</Pattern>
+			<Pattern Name="WordPyramid"  Number="8" >
+				<Rectangle StartIndex="1650" EndIndex="1799" />
+			</Pattern>
+			<Pattern Name="WordStalagtite"  Number="9" >
+				<Rectangle StartIndex="1800" EndIndex="1949" />
+			</Pattern>
+			<Pattern Name="WordIt"  Number="10" >
+				<Rectangle StartIndex="900" EndIndex="1049" />
+			</Pattern>
+			<Pattern Name="WordGo"  Number="11" >
+				<Rectangle StartIndex="450" EndIndex="599" />
+			</Pattern>
+			<Pattern Name="WordRight"  Number="12" >
+				<Rectangle StartIndex="1200" EndIndex="1349" />
+			</Pattern>
+			<Pattern Name="WordForward"  Number="13" >
+				<Rectangle StartIndex="1350" EndIndex="1499" />
+			</Pattern>
+			<Pattern Name="WordBackward"  Number="14" >
+				<Rectangle StartIndex="1500" EndIndex="1649" />
+			</Pattern>
+			<Pattern Name="WordDoor"  Number="15" >
+				<Rectangle StartIndex="1950" EndIndex="2049" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="InstanceNet" Cols ="30" Rows="96" Topology="11" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "0.4" fatigueRecoveryRate="1.2" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="1000" >
+		<Patterns>
+			<Pattern Name="line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="150" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="VerbNet" Cols ="20" Rows="96" Topology="9" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "0.1" fatigueRecoveryRate="0.8" learningRate="0.2" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="verb1"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="299" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="NounNet" Cols ="20" Rows="135" Topology="2" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "0.1" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="OWordNet" Cols ="20" Rows="45" Topology="13" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "0.1" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="StackTopNet" Cols ="30" Rows="60" Topology="4" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "1.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="50" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="zero"  Number="1" >
+				<Rectangle StartIndex="40" EndIndex="259" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="StackNet" Cols ="30" Rows="60" Topology="6" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="2.0" fatigueRate= "1.0" fatigueRecoveryRate="3.0" learningRate="0.2" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="300" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="TestNet" Cols ="20" Rows="190" Topology="7" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.2" fatigueRate= "0.2" fatigueRecoveryRate="0.2" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="40" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="PushNet" Cols ="20" Rows="50" Topology="8" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.2" fatigueRate= "0.2" fatigueRecoveryRate="0.2" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="40" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="PopNet" Cols ="20" Rows="30" Topology="8" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.2" fatigueRate= "0.2" fatigueRecoveryRate="0.2" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="40" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="EraseBoundNet" Cols ="10" Rows="10" Topology="12" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="10.0" fatigueRate= "0.2" fatigueRecoveryRate="0.2" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="50" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="EraseNet" Cols ="20" Rows="180" Topology="10" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.2" fatigueRate= "0.2" fatigueRecoveryRate="0.2" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="40" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="RuleNet" Cols ="30" Rows="60" Topology="5" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.05" fatigueRate= "0.3" fatigueRecoveryRate="0.6" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+</Nets>

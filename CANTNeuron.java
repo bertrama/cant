@@ -4,7 +4,7 @@ import java.util.*;
 public class CANTNeuron {
 
   public static boolean flag = true;
-  private static final int SYNAPSES_TO_ALLOC = 400;
+  private static final int SYNAPSES_TO_ALLOC = 500;
 
   protected double currentActivation;
   protected boolean isInhibitory;
@@ -32,15 +32,15 @@ public class CANTNeuron {
    public CANTNet parentNet;
 
    public CANTNeuron(int neuronId ,CANTNet net) {
-          parentNet = net;
-          currentActivation = 0;
-          timeActive = 0;
-          fatigue = 0;
-          id = neuronId;
-          currentSynapses = 0;
-          synapses = new Synapse[SYNAPSES_TO_ALLOC];
-          double temp = Math.random()*100;
-          isInhibitory = temp < parentNet.getLikelihoodOfInhibitoryNeuron()? true:false;
+     parentNet = net;
+     currentActivation = 0;
+     timeActive = 0;
+     fatigue = 0;
+     id = neuronId;
+     currentSynapses = 0;
+     synapses = new Synapse[SYNAPSES_TO_ALLOC];
+     double temp = Math.random()*100;
+     isInhibitory = temp < parentNet.getLikelihoodOfInhibitoryNeuron()? true:false;
     }
 
 //undone put this generic stuff somewhere else.
@@ -57,7 +57,144 @@ public class CANTNeuron {
     return (connectionStrength);
   }
   
-    public void modifyFatigue(){
+  //Read Connections To a particular net
+  public void readNeuronConnectTo (LineNumberReader inputFile, CANTNet toNet) {
+    String inputLine,paramString;
+	String toNetName="";
+    StringTokenizer tokenizedLine;
+    int testID=-1;
+    double Weight = 0.0;
+    int toNeuronID = 0;
+    int axonsToRead=0;
+    Double tempDouble;
+
+    //read the neuron ID
+    try {
+  	  inputLine = inputFile.readLine();
+      tokenizedLine = new StringTokenizer(inputLine);
+      paramString=tokenizedLine.nextToken();
+      testID = Integer.parseInt(paramString);
+    }
+    catch (IOException e) {
+      System.err.println("Bad Neuron Connect Read" + e.toString());
+      System.exit(1);
+    }
+  	
+    //read the number of axons
+    try {
+      inputLine = inputFile.readLine();
+      tokenizedLine = new StringTokenizer(inputLine);
+      paramString=tokenizedLine.nextToken();
+      axonsToRead = Integer.parseInt(paramString);
+    }
+    catch (IOException e) {
+      System.err.println("Bad Neuron Connect Read Axon" + e.toString());
+      System.exit(1);
+    }
+     
+    //read in the axons.
+    for (int cAxons = 0; cAxons < axonsToRead; cAxons++) {
+      try {
+        inputLine = inputFile.readLine();
+        tokenizedLine = new StringTokenizer(inputLine);
+  	    toNetName=tokenizedLine.nextToken();
+        paramString=tokenizedLine.nextToken();
+        toNeuronID = Integer.parseInt(paramString);
+        paramString=tokenizedLine.nextToken();
+        tempDouble = new Double(paramString);
+  	    Weight =  tempDouble.doubleValue();
+      }
+    
+      catch (IOException e) {
+        System.err.println("Bad Axon Read" + e.toString());
+        System.exit(1);
+      }      	 
+    
+      //set the inhibitory neural value based on the first value
+      if (cAxons == 0)
+        if (Weight < 0) isInhibitory = true;
+        else isInhibitory = false;
+
+      if (toNet.getName().compareTo(toNetName) == 0)  
+        {
+        addConnection(toNet.neurons[toNeuronID],Weight);
+        }
+    }
+  }
+
+  //read a neuron from an open file
+  public void readNeuron (LineNumberReader inputFile, boolean readInterConnections) {
+    String inputLine,paramString,toNetName;
+    StringTokenizer tokenizedLine;
+    int testID=-1;
+    double Weight = 0.0;
+    int toNeuronID = 0;
+    int axonsToRead=0;
+    Double tempDouble;
+
+    //read the neuron ID
+    try {
+  	  inputLine = inputFile.readLine();
+      tokenizedLine = new StringTokenizer(inputLine);
+//	  System.out.println(inputLine);
+      paramString=tokenizedLine.nextToken();
+      testID = Integer.parseInt(paramString);
+    }
+    catch (IOException e) {
+      System.err.println("Bad Neuron Read" + e.toString());
+      System.exit(1);
+    }
+  	
+    //assert(testID == ID);   // 8/12/02
+
+    //read the number of axons
+    try {
+      inputLine = inputFile.readLine();
+      tokenizedLine = new StringTokenizer(inputLine);
+      paramString=tokenizedLine.nextToken();
+      axonsToRead = Integer.parseInt(paramString);
+    }
+    catch (IOException e) {
+      System.err.println("Bad Neuron Read Axon" + e.toString());
+      System.exit(1);
+    }
+     
+    //read in the axons.
+    for (int cAxons = 0; cAxons < axonsToRead; cAxons++) {
+      try {
+        inputLine = inputFile.readLine();
+        tokenizedLine = new StringTokenizer(inputLine);
+		toNetName=tokenizedLine.nextToken();
+		if (parentNet.getName().compareTo(toNetName) != 0)  
+		  {
+		  if (readInterConnections)
+            System.out.println("reading multiple nets not yet supported");  
+		  }	
+        else 
+		  {
+          paramString=tokenizedLine.nextToken();
+          toNeuronID = Integer.parseInt(paramString);
+          paramString=tokenizedLine.nextToken();
+          tempDouble = new Double(paramString);
+  	      Weight =  tempDouble.doubleValue();
+		  }
+      }
+    
+      catch (IOException e) {
+        System.err.println("Bad Axon Read" + e.toString());
+        System.exit(1);
+      }      	 
+    
+      //set the inhibitory neural value based on the first value
+      if (cAxons == 0)
+        if (Weight < 0) isInhibitory = true;
+        else isInhibitory = false;
+
+      addConnection(parentNet.neurons[toNeuronID],Weight);
+    }
+  }
+  
+  public void modifyFatigue(){
         if (fired)
           fatigue += parentNet.getFatigueRate();
         else {
@@ -91,12 +228,14 @@ public class CANTNeuron {
   public boolean getFired(){
     return fired;
   }
-    public void setFired(){
-      if ((currentActivation - fatigue) >= parentNet.getActivationThreshold())
-        fired = true;
-      else
-        fired = false;
-    }
+    
+  public void setFired(){
+    if ((currentActivation - fatigue) >= parentNet.getActivationThreshold())
+      fired = true;
+    else
+      fired = false;
+  }
+  
 //Reset Activation and apply decay
     public void resetActivation(){
       if (fired) {
@@ -454,7 +593,7 @@ double LNE = 2.718;
 	   getWeakCompensatoryModifier(totalConnectionStrength);
     fromCompensatoryStrengthModifier = 
 	   getStrengthCompensatoryModifier(totalConnectionStrength);
-	//System.out.println("mods "+totalConnectionStrength+" "+fromCompensatoryWeakModifier+" "+fromCompensatoryStrengthModifier);
+    //System.out.println("mods "+totalConnectionStrength+" "+fromCompensatoryWeakModifier+" "+fromCompensatoryStrengthModifier);
 
 
     //Test each Synapse from the active neuron
