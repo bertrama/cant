@@ -1,0 +1,2812 @@
+	
+numebr of items in answers array -- 1484	
+	
+The total neurons of all categories	
+Category - CYT  = 46	
+Category - NUC  = 37	
+Category - MIT  = 15	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 46	
+Pattern - 742	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 0/1	
+Percentage of correct answers - 0%	
+The neurons fired in category CYT in each time step - null7,10,8,15,6,	
+The neurons fired in category NUC in each time step - null3,9,10,8,7,	
+The neurons fired in category MIT in each time step - null3,1,2,6,3,	
+The neurons fired in category ME3 in each time step - null0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - null0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - null0,0,0,0,0,	
+The neurons fired in category EXC in each time step - null0,0,0,0,0,	
+The neurons fired in category VAC in each time step - null0,0,0,0,0,	
+The neurons fired in category POX in each time step - null0,0,0,0,0,	
+The neurons fired in category ERL in each time step - null0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 55	
+Category - NUC  = 64	
+Category - MIT  = 28	
+Category - ME3  = 2	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 64	
+Pattern - 743	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 1/2	
+Percentage of correct answers - 50%	
+The neurons fired in category CYT in each time step - 5,16,12,16,6,	
+The neurons fired in category NUC in each time step - 7,10,18,15,14,	
+The neurons fired in category MIT in each time step - 3,8,7,8,2,	
+The neurons fired in category ME3 in each time step - 0,0,0,1,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 55	
+Category - NUC  = 34	
+Category - MIT  = 51	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 55	
+Pattern - 744	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 1/3	
+Percentage of correct answers - 33%	
+The neurons fired in category CYT in each time step - 8,8,12,16,11,	
+The neurons fired in category NUC in each time step - 6,6,7,10,5,	
+The neurons fired in category MIT in each time step - 8,8,12,15,8,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 23	
+Category - NUC  = 6	
+Category - MIT  = 13	
+Category - ME3  = 3	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 23	
+Pattern - 745	
+Selected Category is - CYT	
+Correct Category is  - ME1	
+Number of correct answers - 1/4	
+Percentage of correct answers - 25%	
+The neurons fired in category CYT in each time step - 4,0,10,5,4,	
+The neurons fired in category NUC in each time step - 0,0,1,3,2,	
+The neurons fired in category MIT in each time step - 2,2,4,3,2,	
+The neurons fired in category ME3 in each time step - 0,1,1,1,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 30	
+Category - NUC  = 55	
+Category - MIT  = 21	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 55	
+Pattern - 746	
+Selected Category is - NUC	
+Correct Category is  - VAC	
+Number of correct answers - 1/5	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 3,7,8,8,4,	
+The neurons fired in category NUC in each time step - 5,7,11,16,16,	
+The neurons fired in category MIT in each time step - 2,5,5,7,2,	
+The neurons fired in category ME3 in each time step - 0,0,0,1,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 37	
+Category - NUC  = 28	
+Category - MIT  = 26	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 37	
+Pattern - 747	
+Selected Category is - CYT	
+Correct Category is  - VAC	
+Number of correct answers - 1/6	
+Percentage of correct answers - 17%	
+The neurons fired in category CYT in each time step - 8,7,12,5,5,	
+The neurons fired in category NUC in each time step - 5,4,9,8,2,	
+The neurons fired in category MIT in each time step - 5,5,7,5,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 44	
+Category - NUC  = 24	
+Category - MIT  = 23	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 44	
+Pattern - 748	
+Selected Category is - CYT	
+Correct Category is  - VAC	
+Number of correct answers - 1/7	
+Percentage of correct answers - 14%	
+The neurons fired in category CYT in each time step - 7,10,9,8,10,	
+The neurons fired in category NUC in each time step - 4,4,6,6,4,	
+The neurons fired in category MIT in each time step - 4,5,4,5,5,	
+The neurons fired in category ME3 in each time step - 0,0,1,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 40	
+Category - NUC  = 11	
+Category - MIT  = 25	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 40	
+Pattern - 749	
+Selected Category is - CYT	
+Correct Category is  - VAC	
+Number of correct answers - 1/8	
+Percentage of correct answers - 13%	
+The neurons fired in category CYT in each time step - 3,10,9,9,9,	
+The neurons fired in category NUC in each time step - 1,5,4,0,1,	
+The neurons fired in category MIT in each time step - 6,4,7,4,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 46	
+Category - NUC  = 45	
+Category - MIT  = 24	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 46	
+Pattern - 750	
+Selected Category is - CYT	
+Correct Category is  - VAC	
+Number of correct answers - 1/9	
+Percentage of correct answers - 11%	
+The neurons fired in category CYT in each time step - 5,13,16,6,6,	
+The neurons fired in category NUC in each time step - 6,7,12,7,13,	
+The neurons fired in category MIT in each time step - 3,4,9,2,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 46	
+Category - NUC  = 56	
+Category - MIT  = 34	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 56	
+Pattern - 751	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 2/10	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 6,11,13,8,8,	
+The neurons fired in category NUC in each time step - 9,9,10,13,15,	
+The neurons fired in category MIT in each time step - 5,12,2,6,9,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 43	
+Category - NUC  = 19	
+Category - MIT  = 29	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 43	
+Pattern - 752	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 2/11	
+Percentage of correct answers - 18%	
+The neurons fired in category CYT in each time step - 4,8,13,9,9,	
+The neurons fired in category NUC in each time step - 3,4,3,6,3,	
+The neurons fired in category MIT in each time step - 9,4,6,6,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 35	
+Category - NUC  = 14	
+Category - MIT  = 30	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 35	
+Pattern - 753	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 2/12	
+Percentage of correct answers - 17%	
+The neurons fired in category CYT in each time step - 5,6,11,8,5,	
+The neurons fired in category NUC in each time step - 1,3,7,1,2,	
+The neurons fired in category MIT in each time step - 6,4,12,4,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 45	
+Category - NUC  = 19	
+Category - MIT  = 44	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 45	
+Pattern - 754	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 2/13	
+Percentage of correct answers - 15%	
+The neurons fired in category CYT in each time step - 8,12,10,6,9,	
+The neurons fired in category NUC in each time step - 1,4,7,5,2,	
+The neurons fired in category MIT in each time step - 7,8,6,12,11,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 27	
+Category - NUC  = 43	
+Category - MIT  = 60	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 60	
+Pattern - 755	
+Selected Category is - MIT	
+Correct Category is  - MIT	
+Number of correct answers - 3/14	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 5,6,5,7,4,	
+The neurons fired in category NUC in each time step - 6,6,11,9,11,	
+The neurons fired in category MIT in each time step - 8,15,12,15,10,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 47	
+Category - NUC  = 41	
+Category - MIT  = 34	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 47	
+Pattern - 756	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 3/15	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 8,4,12,10,13,	
+The neurons fired in category NUC in each time step - 7,6,10,8,10,	
+The neurons fired in category MIT in each time step - 5,7,7,7,8,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 34	
+Category - NUC  = 39	
+Category - MIT  = 23	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 39	
+Pattern - 757	
+Selected Category is - NUC	
+Correct Category is  - MIT	
+Number of correct answers - 3/16	
+Percentage of correct answers - 19%	
+The neurons fired in category CYT in each time step - 3,9,6,8,8,	
+The neurons fired in category NUC in each time step - 1,6,10,13,9,	
+The neurons fired in category MIT in each time step - 0,5,5,5,8,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 37	
+Category - NUC  = 31	
+Category - MIT  = 28	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 37	
+Pattern - 758	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 3/17	
+Percentage of correct answers - 18%	
+The neurons fired in category CYT in each time step - 7,9,5,9,7,	
+The neurons fired in category NUC in each time step - 6,5,7,5,8,	
+The neurons fired in category MIT in each time step - 5,8,6,3,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,1,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 22	
+Category - NUC  = 12	
+Category - MIT  = 23	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 23	
+Pattern - 759	
+Selected Category is - MIT	
+Correct Category is  - MIT	
+Number of correct answers - 4/18	
+Percentage of correct answers - 22%	
+The neurons fired in category CYT in each time step - 3,8,4,5,2,	
+The neurons fired in category NUC in each time step - 3,3,2,2,2,	
+The neurons fired in category MIT in each time step - 4,6,5,4,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 33	
+Category - NUC  = 23	
+Category - MIT  = 45	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 45	
+Pattern - 760	
+Selected Category is - MIT	
+Correct Category is  - MIT	
+Number of correct answers - 5/19	
+Percentage of correct answers - 26%	
+The neurons fired in category CYT in each time step - 6,8,7,6,6,	
+The neurons fired in category NUC in each time step - 4,4,3,6,6,	
+The neurons fired in category MIT in each time step - 5,8,9,13,10,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 41	
+Category - NUC  = 25	
+Category - MIT  = 40	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 41	
+Pattern - 761	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 5/20	
+Percentage of correct answers - 25%	
+The neurons fired in category CYT in each time step - 11,9,9,7,5,	
+The neurons fired in category NUC in each time step - 2,7,8,7,1,	
+The neurons fired in category MIT in each time step - 8,10,8,7,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 33	
+Category - NUC  = 25	
+Category - MIT  = 20	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 33	
+Pattern - 762	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 6/21	
+Percentage of correct answers - 29%	
+The neurons fired in category CYT in each time step - 7,10,6,10,	
+The neurons fired in category NUC in each time step - 4,4,7,10,	
+The neurons fired in category MIT in each time step - 3,5,5,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 0	
+Category - NUC  = 0	
+Category - MIT  = 0	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 0	
+Pattern - 764	
+Category is unknown - no category neurons were fired	
+Correct Category is  - CYT	
+Number of correct answers - 6/22	
+The neurons fired in category CYT in each time step - 	
+The neurons fired in category NUC in each time step - 	
+The neurons fired in category MIT in each time step - 	
+The neurons fired in category ME3 in each time step - 	
+The neurons fired in category ME2 in each time step - 	
+The neurons fired in category ME1 in each time step - 	
+The neurons fired in category EXC in each time step - 	
+The neurons fired in category VAC in each time step - 	
+The neurons fired in category POX in each time step - 	
+The neurons fired in category ERL in each time step - 	
+	
+The total neurons of all categories	
+Category - CYT  = 44	
+Category - NUC  = 48	
+Category - MIT  = 29	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 48	
+Pattern - 765	
+Selected Category is - NUC	
+Correct Category is  - CYT	
+Number of correct answers - 6/23	
+Percentage of correct answers - 26%	
+The neurons fired in category CYT in each time step - 7,12,10,8,7,	
+The neurons fired in category NUC in each time step - 6,7,11,14,10,	
+The neurons fired in category MIT in each time step - 5,8,6,4,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 45	
+Category - NUC  = 56	
+Category - MIT  = 16	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 56	
+Pattern - 766	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 7/24	
+Percentage of correct answers - 29%	
+The neurons fired in category CYT in each time step - 9,8,12,9,7,	
+The neurons fired in category NUC in each time step - 8,9,18,14,7,	
+The neurons fired in category MIT in each time step - 1,7,3,1,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 61	
+Category - NUC  = 50	
+Category - MIT  = 31	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 61	
+Pattern - 767	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 8/25	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 11,12,17,12,9,	
+The neurons fired in category NUC in each time step - 4,6,13,14,13,	
+The neurons fired in category MIT in each time step - 4,8,5,6,8,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 47	
+Category - NUC  = 23	
+Category - MIT  = 32	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 47	
+Pattern - 768	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 9/26	
+Percentage of correct answers - 35%	
+The neurons fired in category CYT in each time step - 3,13,11,11,9,	
+The neurons fired in category NUC in each time step - 4,5,5,4,5,	
+The neurons fired in category MIT in each time step - 3,4,8,11,6,	
+The neurons fired in category ME3 in each time step - 0,1,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 67	
+Category - NUC  = 40	
+Category - MIT  = 38	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 67	
+Pattern - 769	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 10/27	
+Percentage of correct answers - 37%	
+The neurons fired in category CYT in each time step - 12,9,20,15,11,	
+The neurons fired in category NUC in each time step - 7,6,14,7,6,	
+The neurons fired in category MIT in each time step - 4,10,9,9,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 59	
+Category - NUC  = 67	
+Category - MIT  = 29	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 67	
+Pattern - 770	
+Selected Category is - NUC	
+Correct Category is  - CYT	
+Number of correct answers - 10/28	
+Percentage of correct answers - 36%	
+The neurons fired in category CYT in each time step - 8,9,17,14,11,	
+The neurons fired in category NUC in each time step - 9,9,18,16,15,	
+The neurons fired in category MIT in each time step - 2,5,12,4,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 66	
+Category - NUC  = 49	
+Category - MIT  = 46	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 66	
+Pattern - 771	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 10/29	
+Percentage of correct answers - 34%	
+The neurons fired in category CYT in each time step - 14,13,12,17,10,	
+The neurons fired in category NUC in each time step - 4,10,14,17,4,	
+The neurons fired in category MIT in each time step - 8,9,9,8,12,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 31	
+Category - NUC  = 14	
+Category - MIT  = 31	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 31	
+Pattern - 772	
+Selected Category is - CYT	
+Correct Category is  - EXC	
+Number of correct answers - 10/30	
+Percentage of correct answers - 33%	
+The neurons fired in category CYT in each time step - 4,7,12,5,3,	
+The neurons fired in category NUC in each time step - 0,2,2,5,5,	
+The neurons fired in category MIT in each time step - 6,6,8,8,3,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 35	
+Category - NUC  = 13	
+Category - MIT  = 26	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 35	
+Pattern - 773	
+Selected Category is - CYT	
+Correct Category is  - EXC	
+Number of correct answers - 10/31	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 8,8,7,5,7,	
+The neurons fired in category NUC in each time step - 1,3,3,3,3,	
+The neurons fired in category MIT in each time step - 5,6,5,3,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 58	
+Category - NUC  = 47	
+Category - MIT  = 46	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 58	
+Pattern - 774	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 11/32	
+Percentage of correct answers - 34%	
+The neurons fired in category CYT in each time step - 4,13,16,10,15,	
+The neurons fired in category NUC in each time step - 4,10,10,11,12,	
+The neurons fired in category MIT in each time step - 4,10,9,8,15,	
+The neurons fired in category ME3 in each time step - 0,0,1,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 32	
+Category - NUC  = 11	
+Category - MIT  = 34	
+Category - ME3  = 0	
+Category - ME2  = 1	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 34	
+Pattern - 775	
+Selected Category is - MIT	
+Correct Category is  - EXC	
+Number of correct answers - 11/33	
+Percentage of correct answers - 33%	
+The neurons fired in category CYT in each time step - 6,9,4,6,7,	
+The neurons fired in category NUC in each time step - 1,2,3,2,3,	
+The neurons fired in category MIT in each time step - 5,8,13,2,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,1,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 54	
+Category - NUC  = 43	
+Category - MIT  = 29	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 54	
+Pattern - 776	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 11/34	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 11,10,11,11,11,	
+The neurons fired in category NUC in each time step - 4,9,10,12,8,	
+The neurons fired in category MIT in each time step - 6,3,5,6,9,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 31	
+Category - NUC  = 23	
+Category - MIT  = 33	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 33	
+Pattern - 777	
+Selected Category is - MIT	
+Correct Category is  - EXC	
+Number of correct answers - 11/35	
+Percentage of correct answers - 31%	
+The neurons fired in category CYT in each time step - 4,12,4,6,5,	
+The neurons fired in category NUC in each time step - 1,2,9,8,3,	
+The neurons fired in category MIT in each time step - 9,5,12,2,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 42	
+Category - NUC  = 18	
+Category - MIT  = 15	
+Category - ME3  = 3	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 42	
+Pattern - 778	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 11/36	
+Percentage of correct answers - 31%	
+The neurons fired in category CYT in each time step - 7,5,11,7,12,	
+The neurons fired in category NUC in each time step - 2,3,7,1,5,	
+The neurons fired in category MIT in each time step - 2,2,6,2,3,	
+The neurons fired in category ME3 in each time step - 0,0,2,0,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 34	
+Category - NUC  = 18	
+Category - MIT  = 25	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 34	
+Pattern - 779	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 11/37	
+Percentage of correct answers - 30%	
+The neurons fired in category CYT in each time step - 5,10,9,7,3,	
+The neurons fired in category NUC in each time step - 2,2,2,8,4,	
+The neurons fired in category MIT in each time step - 3,4,7,8,3,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 33	
+Category - NUC  = 18	
+Category - MIT  = 11	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 33	
+Pattern - 780	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 11/38	
+Percentage of correct answers - 29%	
+The neurons fired in category CYT in each time step - 7,6,8,7,5,	
+The neurons fired in category NUC in each time step - 3,6,3,2,4,	
+The neurons fired in category MIT in each time step - 1,4,3,1,2,	
+The neurons fired in category ME3 in each time step - 0,0,0,1,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 61	
+Category - NUC  = 42	
+Category - MIT  = 36	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 61	
+Pattern - 781	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 11/39	
+Percentage of correct answers - 28%	
+The neurons fired in category CYT in each time step - 7,12,16,15,11,	
+The neurons fired in category NUC in each time step - 6,10,8,8,10,	
+The neurons fired in category MIT in each time step - 3,4,12,8,9,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 24	
+Category - NUC  = 20	
+Category - MIT  = 6	
+Category - ME3  = 2	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 24	
+Pattern - 782	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 11/40	
+Percentage of correct answers - 28%	
+The neurons fired in category CYT in each time step - 2,4,4,7,7,	
+The neurons fired in category NUC in each time step - 3,2,5,4,6,	
+The neurons fired in category MIT in each time step - 0,4,1,1,0,	
+The neurons fired in category ME3 in each time step - 0,0,1,1,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 50	
+Category - NUC  = 36	
+Category - MIT  = 31	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 50	
+Pattern - 783	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 11/41	
+Percentage of correct answers - 27%	
+The neurons fired in category CYT in each time step - 8,11,14,8,9,	
+The neurons fired in category NUC in each time step - 4,7,9,8,8,	
+The neurons fired in category MIT in each time step - 7,4,11,6,3,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 39	
+Category - NUC  = 52	
+Category - MIT  = 41	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 52	
+Pattern - 784	
+Selected Category is - NUC	
+Correct Category is  - MIT	
+Number of correct answers - 11/42	
+Percentage of correct answers - 26%	
+The neurons fired in category CYT in each time step - 5,9,9,8,8,	
+The neurons fired in category NUC in each time step - 8,5,14,11,14,	
+The neurons fired in category MIT in each time step - 4,10,11,9,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 47	
+Category - NUC  = 27	
+Category - MIT  = 20	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 47	
+Pattern - 785	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 11/43	
+Percentage of correct answers - 26%	
+The neurons fired in category CYT in each time step - 9,9,10,10,9,	
+The neurons fired in category NUC in each time step - 3,2,5,12,5,	
+The neurons fired in category MIT in each time step - 5,2,5,4,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 52	
+Category - NUC  = 48	
+Category - MIT  = 41	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 52	
+Pattern - 786	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 11/44	
+Percentage of correct answers - 25%	
+The neurons fired in category CYT in each time step - 7,10,14,12,9,	
+The neurons fired in category NUC in each time step - 5,9,12,13,9,	
+The neurons fired in category MIT in each time step - 7,6,10,11,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 23	
+Category - NUC  = 13	
+Category - MIT  = 30	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 30	
+Pattern - 787	
+Selected Category is - MIT	
+Correct Category is  - EXC	
+Number of correct answers - 11/45	
+Percentage of correct answers - 24%	
+The neurons fired in category CYT in each time step - 3,4,5,9,2,	
+The neurons fired in category NUC in each time step - 1,4,2,2,4,	
+The neurons fired in category MIT in each time step - 5,5,9,6,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 18	
+Category - NUC  = 30	
+Category - MIT  = 42	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 42	
+Pattern - 788	
+Selected Category is - MIT	
+Correct Category is  - EXC	
+Number of correct answers - 11/46	
+Percentage of correct answers - 24%	
+The neurons fired in category CYT in each time step - 3,4,2,3,6,	
+The neurons fired in category NUC in each time step - 5,7,8,6,4,	
+The neurons fired in category MIT in each time step - 7,6,12,10,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 20	
+Category - NUC  = 8	
+Category - MIT  = 28	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 28	
+Pattern - 789	
+Selected Category is - MIT	
+Correct Category is  - EXC	
+Number of correct answers - 11/47	
+Percentage of correct answers - 23%	
+The neurons fired in category CYT in each time step - 4,4,4,5,3,	
+The neurons fired in category NUC in each time step - 1,1,3,3,0,	
+The neurons fired in category MIT in each time step - 4,5,10,6,3,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 38	
+Category - NUC  = 29	
+Category - MIT  = 31	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 38	
+Pattern - 790	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 11/48	
+Percentage of correct answers - 23%	
+The neurons fired in category CYT in each time step - 7,10,12,3,6,	
+The neurons fired in category NUC in each time step - 4,5,7,5,8,	
+The neurons fired in category MIT in each time step - 2,11,8,7,3,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 26	
+Category - NUC  = 7	
+Category - MIT  = 36	
+Category - ME3  = 0	
+Category - ME2  = 1	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 36	
+Pattern - 791	
+Selected Category is - MIT	
+Correct Category is  - ME1	
+Number of correct answers - 11/49	
+Percentage of correct answers - 22%	
+The neurons fired in category CYT in each time step - 2,7,6,7,4,	
+The neurons fired in category NUC in each time step - 0,2,1,1,3,	
+The neurons fired in category MIT in each time step - 4,9,13,3,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,1,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 32	
+Category - NUC  = 28	
+Category - MIT  = 18	
+Category - ME3  = 2	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 32	
+Pattern - 792	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 11/50	
+Percentage of correct answers - 22%	
+The neurons fired in category CYT in each time step - 10,6,6,5,5,	
+The neurons fired in category NUC in each time step - 3,6,7,7,5,	
+The neurons fired in category MIT in each time step - 5,2,6,3,2,	
+The neurons fired in category ME3 in each time step - 0,1,0,0,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 46	
+Category - NUC  = 51	
+Category - MIT  = 12	
+Category - ME3  = 3	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 51	
+Pattern - 793	
+Selected Category is - NUC	
+Correct Category is  - ME3	
+Number of correct answers - 11/51	
+Percentage of correct answers - 22%	
+The neurons fired in category CYT in each time step - 4,10,10,12,10,	
+The neurons fired in category NUC in each time step - 5,9,8,13,16,	
+The neurons fired in category MIT in each time step - 1,4,2,3,2,	
+The neurons fired in category ME3 in each time step - 0,0,1,2,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 49	
+Category - NUC  = 23	
+Category - MIT  = 10	
+Category - ME3  = 4	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 49	
+Pattern - 794	
+Selected Category is - CYT	
+Correct Category is  - VAC	
+Number of correct answers - 11/52	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 7,12,14,8,8,	
+The neurons fired in category NUC in each time step - 1,3,9,5,5,	
+The neurons fired in category MIT in each time step - 0,3,2,1,4,	
+The neurons fired in category ME3 in each time step - 0,1,3,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 47	
+Category - NUC  = 34	
+Category - MIT  = 32	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 47	
+Pattern - 795	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 12/53	
+Percentage of correct answers - 23%	
+The neurons fired in category CYT in each time step - 6,8,13,9,11,	
+The neurons fired in category NUC in each time step - 4,5,6,6,13,	
+The neurons fired in category MIT in each time step - 5,7,8,7,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 9	
+Category - NUC  = 13	
+Category - MIT  = 20	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 20	
+Pattern - 796	
+Selected Category is - MIT	
+Correct Category is  - ME2	
+Number of correct answers - 12/54	
+Percentage of correct answers - 22%	
+The neurons fired in category CYT in each time step - 0,1,3,3,2,	
+The neurons fired in category NUC in each time step - 1,4,3,3,2,	
+The neurons fired in category MIT in each time step - 4,4,6,2,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 9	
+Category - NUC  = 8	
+Category - MIT  = 22	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 22	
+Pattern - 797	
+Selected Category is - MIT	
+Correct Category is  - ME2	
+Number of correct answers - 12/55	
+Percentage of correct answers - 22%	
+The neurons fired in category CYT in each time step - 0,3,0,1,5,	
+The neurons fired in category NUC in each time step - 1,2,1,1,3,	
+The neurons fired in category MIT in each time step - 4,4,3,4,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 44	
+Category - NUC  = 30	
+Category - MIT  = 10	
+Category - ME3  = 2	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 44	
+Pattern - 798	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 12/56	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 4,10,11,10,9,	
+The neurons fired in category NUC in each time step - 5,10,4,3,8,	
+The neurons fired in category MIT in each time step - 1,4,4,0,1,	
+The neurons fired in category ME3 in each time step - 0,1,0,1,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 37	
+Category - NUC  = 31	
+Category - MIT  = 11	
+Category - ME3  = 3	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 37	
+Pattern - 799	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 12/57	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 3,11,6,7,10,	
+The neurons fired in category NUC in each time step - 2,5,6,12,6,	
+The neurons fired in category MIT in each time step - 1,2,3,3,2,	
+The neurons fired in category ME3 in each time step - 0,2,1,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 45	
+Category - NUC  = 42	
+Category - MIT  = 19	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 45	
+Pattern - 800	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 12/58	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 8,9,13,7,8,	
+The neurons fired in category NUC in each time step - 6,10,8,10,8,	
+The neurons fired in category MIT in each time step - 2,6,3,6,2,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 46	
+Category - NUC  = 33	
+Category - MIT  = 21	
+Category - ME3  = 2	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 46	
+Pattern - 801	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 12/59	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 9,10,7,9,11,	
+The neurons fired in category NUC in each time step - 0,7,8,11,7,	
+The neurons fired in category MIT in each time step - 3,2,5,6,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,2,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 31	
+Category - NUC  = 16	
+Category - MIT  = 11	
+Category - ME3  = 4	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 31	
+Pattern - 802	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 12/60	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 5,5,11,4,6,	
+The neurons fired in category NUC in each time step - 0,4,5,4,3,	
+The neurons fired in category MIT in each time step - 3,0,6,2,0,	
+The neurons fired in category ME3 in each time step - 0,2,0,1,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 36	
+Category - NUC  = 25	
+Category - MIT  = 30	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 36	
+Pattern - 803	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 12/61	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 6,11,11,5,3,	
+The neurons fired in category NUC in each time step - 3,2,8,6,6,	
+The neurons fired in category MIT in each time step - 6,7,9,7,1,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 55	
+Category - NUC  = 48	
+Category - MIT  = 24	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 55	
+Pattern - 804	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 12/62	
+Percentage of correct answers - 19%	
+The neurons fired in category CYT in each time step - 11,12,11,10,11,	
+The neurons fired in category NUC in each time step - 6,14,13,9,6,	
+The neurons fired in category MIT in each time step - 2,4,6,5,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 45	
+Category - NUC  = 32	
+Category - MIT  = 24	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 45	
+Pattern - 805	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 12/63	
+Percentage of correct answers - 19%	
+The neurons fired in category CYT in each time step - 9,6,11,9,10,	
+The neurons fired in category NUC in each time step - 5,4,5,10,8,	
+The neurons fired in category MIT in each time step - 3,3,5,7,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 47	
+Category - NUC  = 49	
+Category - MIT  = 14	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 49	
+Pattern - 806	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 13/64	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 12,12,7,8,8,	
+The neurons fired in category NUC in each time step - 10,14,7,12,6,	
+The neurons fired in category MIT in each time step - 1,7,2,3,1,	
+The neurons fired in category ME3 in each time step - 0,0,0,1,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 44	
+Category - NUC  = 30	
+Category - MIT  = 20	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 44	
+Pattern - 807	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 13/65	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 7,6,13,10,8,	
+The neurons fired in category NUC in each time step - 2,9,7,9,3,	
+The neurons fired in category MIT in each time step - 2,5,4,5,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 40	
+Category - NUC  = 28	
+Category - MIT  = 45	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 45	
+Pattern - 808	
+Selected Category is - MIT	
+Correct Category is  - NUC	
+Number of correct answers - 13/66	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 8,8,11,8,5,	
+The neurons fired in category NUC in each time step - 2,5,5,9,7,	
+The neurons fired in category MIT in each time step - 6,10,12,7,10,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 43	
+Category - NUC  = 46	
+Category - MIT  = 35	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 46	
+Pattern - 809	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 14/67	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 4,9,9,12,9,	
+The neurons fired in category NUC in each time step - 3,5,14,11,13,	
+The neurons fired in category MIT in each time step - 5,7,7,7,9,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 34	
+Category - NUC  = 24	
+Category - MIT  = 23	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 34	
+Pattern - 810	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 14/68	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 4,7,7,10,6,	
+The neurons fired in category NUC in each time step - 3,3,6,8,4,	
+The neurons fired in category MIT in each time step - 3,3,6,6,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 29	
+Category - NUC  = 22	
+Category - MIT  = 27	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 29	
+Pattern - 811	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 14/69	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 5,5,9,10,0,	
+The neurons fired in category NUC in each time step - 2,6,5,7,2,	
+The neurons fired in category MIT in each time step - 1,9,10,5,2,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 49	
+Category - NUC  = 42	
+Category - MIT  = 35	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 49	
+Pattern - 812	
+Selected Category is - CYT	
+Correct Category is  - POX	
+Number of correct answers - 14/70	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 9,12,10,10,8,	
+The neurons fired in category NUC in each time step - 4,8,11,11,8,	
+The neurons fired in category MIT in each time step - 3,8,8,9,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 29	
+Category - NUC  = 17	
+Category - MIT  = 27	
+Category - ME3  = 2	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 29	
+Pattern - 813	
+Selected Category is - CYT	
+Correct Category is  - ME3	
+Number of correct answers - 14/71	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 4,9,9,4,3,	
+The neurons fired in category NUC in each time step - 0,2,5,8,2,	
+The neurons fired in category MIT in each time step - 3,7,4,8,5,	
+The neurons fired in category ME3 in each time step - 0,1,0,0,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 61	
+Category - NUC  = 47	
+Category - MIT  = 47	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 61	
+Pattern - 814	
+Selected Category is - CYT	
+Correct Category is  - MIT	
+Number of correct answers - 14/72	
+Percentage of correct answers - 19%	
+The neurons fired in category CYT in each time step - 12,14,8,11,16,	
+The neurons fired in category NUC in each time step - 4,11,8,13,11,	
+The neurons fired in category MIT in each time step - 7,6,14,11,9,	
+The neurons fired in category ME3 in each time step - 0,0,1,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 50	
+Category - NUC  = 40	
+Category - MIT  = 23	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 50	
+Pattern - 815	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 15/73	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 9,11,9,14,7,	
+The neurons fired in category NUC in each time step - 7,5,7,10,11,	
+The neurons fired in category MIT in each time step - 5,5,5,7,1,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 51	
+Category - NUC  = 41	
+Category - MIT  = 20	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 51	
+Pattern - 816	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 15/74	
+Percentage of correct answers - 20%	
+The neurons fired in category CYT in each time step - 11,10,8,11,11,	
+The neurons fired in category NUC in each time step - 6,7,6,9,13,	
+The neurons fired in category MIT in each time step - 4,2,1,7,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 30	
+Category - NUC  = 17	
+Category - MIT  = 24	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 30	
+Pattern - 817	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 16/75	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 8,7,4,10,1,	
+The neurons fired in category NUC in each time step - 0,7,5,4,1,	
+The neurons fired in category MIT in each time step - 6,3,4,5,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 46	
+Category - NUC  = 41	
+Category - MIT  = 37	
+Category - ME3  = 0	
+Category - ME2  = 1	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 46	
+Pattern - 818	
+Selected Category is - CYT	
+Correct Category is  - VAC	
+Number of correct answers - 16/76	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 6,12,8,10,10,	
+The neurons fired in category NUC in each time step - 2,9,12,10,8,	
+The neurons fired in category MIT in each time step - 3,8,8,9,9,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,1,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 44	
+Category - NUC  = 23	
+Category - MIT  = 52	
+Category - ME3  = 0	
+Category - ME2  = 1	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 52	
+Pattern - 819	
+Selected Category is - MIT	
+Correct Category is  - VAC	
+Number of correct answers - 16/77	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 8,9,7,10,10,	
+The neurons fired in category NUC in each time step - 0,7,5,6,5,	
+The neurons fired in category MIT in each time step - 7,15,9,12,9,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,1,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 42	
+Category - NUC  = 31	
+Category - MIT  = 62	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 62	
+Pattern - 820	
+Selected Category is - MIT	
+Correct Category is  - VAC	
+Number of correct answers - 16/78	
+Percentage of correct answers - 21%	
+The neurons fired in category CYT in each time step - 5,9,8,9,11,	
+The neurons fired in category NUC in each time step - 3,7,9,6,6,	
+The neurons fired in category MIT in each time step - 7,14,16,15,10,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 69	
+Category - NUC  = 42	
+Category - MIT  = 51	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 69	
+Pattern - 821	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 17/79	
+Percentage of correct answers - 22%	
+The neurons fired in category CYT in each time step - 10,13,17,14,15,	
+The neurons fired in category NUC in each time step - 5,7,14,8,8,	
+The neurons fired in category MIT in each time step - 8,9,15,9,10,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 67	
+Category - NUC  = 41	
+Category - MIT  = 58	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 67	
+Pattern - 822	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 18/80	
+Percentage of correct answers - 23%	
+The neurons fired in category CYT in each time step - 10,14,14,14,15,	
+The neurons fired in category NUC in each time step - 3,9,9,11,9,	
+The neurons fired in category MIT in each time step - 7,12,11,15,13,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 49	
+Category - NUC  = 35	
+Category - MIT  = 42	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 49	
+Pattern - 823	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 19/81	
+Percentage of correct answers - 23%	
+The neurons fired in category CYT in each time step - 10,11,10,14,4,	
+The neurons fired in category NUC in each time step - 6,6,6,10,7,	
+The neurons fired in category MIT in each time step - 4,12,12,8,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 60	
+Category - NUC  = 57	
+Category - MIT  = 38	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 60	
+Pattern - 824	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 20/82	
+Percentage of correct answers - 24%	
+The neurons fired in category CYT in each time step - 12,8,15,10,15,	
+The neurons fired in category NUC in each time step - 8,6,16,16,11,	
+The neurons fired in category MIT in each time step - 7,8,10,7,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 36	
+Category - NUC  = 26	
+Category - MIT  = 33	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 36	
+Pattern - 825	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 21/83	
+Percentage of correct answers - 25%	
+The neurons fired in category CYT in each time step - 8,6,11,7,4,	
+The neurons fired in category NUC in each time step - 2,6,10,3,5,	
+The neurons fired in category MIT in each time step - 5,8,5,10,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 44	
+Category - NUC  = 42	
+Category - MIT  = 23	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 44	
+Pattern - 826	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 22/84	
+Percentage of correct answers - 26%	
+The neurons fired in category CYT in each time step - 8,5,10,11,10,	
+The neurons fired in category NUC in each time step - 4,4,6,15,13,	
+The neurons fired in category MIT in each time step - 2,6,4,6,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 44	
+Category - NUC  = 49	
+Category - MIT  = 24	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 49	
+Pattern - 827	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 23/85	
+Percentage of correct answers - 27%	
+The neurons fired in category CYT in each time step - 4,13,8,11,8,	
+The neurons fired in category NUC in each time step - 5,8,12,10,14,	
+The neurons fired in category MIT in each time step - 5,5,5,5,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 51	
+Category - NUC  = 36	
+Category - MIT  = 24	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 51	
+Pattern - 828	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 23/86	
+Percentage of correct answers - 27%	
+The neurons fired in category CYT in each time step - 10,9,11,10,11,	
+The neurons fired in category NUC in each time step - 4,5,7,10,10,	
+The neurons fired in category MIT in each time step - 6,3,6,5,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 48	
+Category - NUC  = 27	
+Category - MIT  = 23	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 48	
+Pattern - 829	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 24/87	
+Percentage of correct answers - 28%	
+The neurons fired in category CYT in each time step - 7,12,9,10,10,	
+The neurons fired in category NUC in each time step - 3,7,6,6,5,	
+The neurons fired in category MIT in each time step - 2,3,4,6,8,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 43	
+Category - NUC  = 24	
+Category - MIT  = 32	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 43	
+Pattern - 830	
+Selected Category is - CYT	
+Correct Category is  - CYT	
+Number of correct answers - 25/88	
+Percentage of correct answers - 28%	
+The neurons fired in category CYT in each time step - 6,11,9,12,5,	
+The neurons fired in category NUC in each time step - 0,5,6,7,6,	
+The neurons fired in category MIT in each time step - 5,10,10,5,2,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 61	
+Category - NUC  = 67	
+Category - MIT  = 46	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 67	
+Pattern - 831	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 26/89	
+Percentage of correct answers - 29%	
+The neurons fired in category CYT in each time step - 10,10,13,15,13,	
+The neurons fired in category NUC in each time step - 9,14,12,15,17,	
+The neurons fired in category MIT in each time step - 6,8,13,10,9,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 58	
+Category - NUC  = 66	
+Category - MIT  = 22	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 66	
+Pattern - 832	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 27/90	
+Percentage of correct answers - 30%	
+The neurons fired in category CYT in each time step - 9,10,16,15,8,	
+The neurons fired in category NUC in each time step - 6,11,15,17,17,	
+The neurons fired in category MIT in each time step - 2,5,10,4,1,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 52	
+Category - NUC  = 53	
+Category - MIT  = 38	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 53	
+Pattern - 833	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 28/91	
+Percentage of correct answers - 31%	
+The neurons fired in category CYT in each time step - 8,11,13,14,6,	
+The neurons fired in category NUC in each time step - 6,9,13,14,11,	
+The neurons fired in category MIT in each time step - 7,5,12,9,5,	
+The neurons fired in category ME3 in each time step - 0,0,1,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 39	
+Category - NUC  = 51	
+Category - MIT  = 34	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 51	
+Pattern - 834	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 29/92	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 3,8,9,11,8,	
+The neurons fired in category NUC in each time step - 6,10,11,11,13,	
+The neurons fired in category MIT in each time step - 4,8,10,6,6,	
+The neurons fired in category ME3 in each time step - 0,0,1,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 56	
+Category - NUC  = 73	
+Category - MIT  = 18	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 73	
+Pattern - 835	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 30/93	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 7,11,15,12,11,	
+The neurons fired in category NUC in each time step - 10,16,15,16,16,	
+The neurons fired in category MIT in each time step - 2,4,4,4,4,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 45	
+Category - NUC  = 36	
+Category - MIT  = 21	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 45	
+Pattern - 836	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 30/94	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 7,9,12,11,6,	
+The neurons fired in category NUC in each time step - 8,9,6,8,5,	
+The neurons fired in category MIT in each time step - 4,6,3,5,3,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 51	
+Category - NUC  = 49	
+Category - MIT  = 34	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 51	
+Pattern - 837	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 30/95	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 8,12,7,14,10,	
+The neurons fired in category NUC in each time step - 6,13,13,10,7,	
+The neurons fired in category MIT in each time step - 8,7,7,6,6,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 34	
+Category - NUC  = 28	
+Category - MIT  = 17	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 34	
+Pattern - 838	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 30/96	
+Percentage of correct answers - 31%	
+The neurons fired in category CYT in each time step - 7,11,8,3,5,	
+The neurons fired in category NUC in each time step - 2,14,5,5,2,	
+The neurons fired in category MIT in each time step - 2,5,5,2,3,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 47	
+Category - NUC  = 48	
+Category - MIT  = 18	
+Category - ME3  = 2	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 48	
+Pattern - 839	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 31/97	
+Percentage of correct answers - 32%	
+The neurons fired in category CYT in each time step - 6,9,13,11,8,	
+The neurons fired in category NUC in each time step - 4,9,11,11,13,	
+The neurons fired in category MIT in each time step - 4,5,4,3,2,	
+The neurons fired in category ME3 in each time step - 0,0,1,0,1,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 45	
+Category - NUC  = 49	
+Category - MIT  = 22	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 49	
+Pattern - 840	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 32/98	
+Percentage of correct answers - 33%	
+The neurons fired in category CYT in each time step - 7,11,4,10,13,	
+The neurons fired in category NUC in each time step - 5,9,14,9,12,	
+The neurons fired in category MIT in each time step - 3,5,2,7,5,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 20	
+Category - NUC  = 46	
+Category - MIT  = 11	
+Category - ME3  = 1	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 46	
+Pattern - 841	
+Selected Category is - NUC	
+Correct Category is  - NUC	
+Number of correct answers - 33/99	
+Percentage of correct answers - 33%	
+The neurons fired in category CYT in each time step - 5,3,4,4,4,	
+The neurons fired in category NUC in each time step - 4,8,14,12,8,	
+The neurons fired in category MIT in each time step - 1,1,2,3,4,	
+The neurons fired in category ME3 in each time step - 0,0,1,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+The total neurons of all categories	
+Category - CYT  = 60	
+Category - NUC  = 51	
+Category - MIT  = 34	
+Category - ME3  = 0	
+Category - ME2  = 0	
+Category - ME1  = 0	
+Category - EXC  = 0	
+Category - VAC  = 0	
+Category - POX  = 0	
+Category - ERL  = 0	
+Maximum number is - 60	
+Pattern - 842	
+Selected Category is - CYT	
+Correct Category is  - NUC	
+Number of correct answers - 33/100	
+Percentage of correct answers - 33%	
+The neurons fired in category CYT in each time step - 11,11,15,15,8,	
+The neurons fired in category NUC in each time step - 6,14,15,9,7,	
+The neurons fired in category MIT in each time step - 4,8,8,7,7,	
+The neurons fired in category ME3 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME2 in each time step - 0,0,0,0,0,	
+The neurons fired in category ME1 in each time step - 0,0,0,0,0,	
+The neurons fired in category EXC in each time step - 0,0,0,0,0,	
+The neurons fired in category VAC in each time step - 0,0,0,0,0,	
+The neurons fired in category POX in each time step - 0,0,0,0,0,	
+The neurons fired in category ERL in each time step - 0,0,0,0,0,	
+	
+Correct CYT answers = 16	
+Correct NUC answers = 14	
+Correct MIT answers = 3	
+Correct ME3 answers = 0	
+Correct ME2 answers = 0	
+Correct ME1 answers = 0	
+Correct EXC answers = 0	
+Correct VAC answers = 0	
+Correct POX answers = 0	
+Correct ERL answers = 0

@@ -1,0 +1,12 @@
+CANT23 comes from Chris's CANT22a.  The big change is that 
+I've subclassed CANT23 so that we can make new systems without 
+changing the core files.  This was pretty easy for CANTExperiment
+but harder for CANTNet.  I had to create a null net of the appropriate
+type in the subclassed CANT23.  I then passed this to NetMgr
+which called back a special function getNewNet which creates
+the net of the appropriate type.
+
+It works for count and I expect for the default.
+
+It hasn't been translated for the hier, add, and vb stuff in
+CANT22a.

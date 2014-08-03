@@ -1,0 +1,150 @@
+<Nets>
+	<Net Name ="BaseNet" Cols ="100" Rows="100" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.2" fatigueRate= "0.4" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="false" 
+	neuronsToStimulate="10000" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="10" >
+		<Patterns>
+			<Pattern Name="line"  Number="1" >
+				<Rectangle StartIndex="65" EndIndex="69" />
+
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="RetinaNet" Cols ="30" Rows="180" Topology="2" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="2.0" fatigueRate= "0.6" fatigueRecoveryRate="0.15" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="V1Net" Cols ="30" Rows="240" Topology="2" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="2.0" fatigueRate= "0.6" fatigueRecoveryRate="0.15" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="V2Net" Cols ="30" Rows="60" Topology="3" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="2.0" fatigueRate= "0.6" fatigueRecoveryRate="0.15" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+			<Pattern Name="Triangle1"  Number="1" >
+				<Rectangle StartIndex="131" EndIndex="131" />
+				<Rectangle StartIndex="160" EndIndex="160" />
+				<Rectangle StartIndex="162" EndIndex="162" />
+				<Rectangle StartIndex="190" EndIndex="190" />
+				<Rectangle StartIndex="192" EndIndex="192" />
+				<Rectangle StartIndex="219" EndIndex="219" />
+				<Rectangle StartIndex="223" EndIndex="223" />
+				<Rectangle StartIndex="249" EndIndex="249" />
+				<Rectangle StartIndex="253" EndIndex="253" />
+				<Rectangle StartIndex="278" EndIndex="278" />
+				<Rectangle StartIndex="284" EndIndex="284" />
+				<Rectangle StartIndex="308" EndIndex="308" />
+				<Rectangle StartIndex="314" EndIndex="314" />
+				<Rectangle StartIndex="337" EndIndex="337" />
+				<Rectangle StartIndex="345" EndIndex="345" />
+				<Rectangle StartIndex="367" EndIndex="375" />
+			</Pattern>
+			<Pattern Name="Triangle2"  Number="2" >
+				<Rectangle StartIndex="368" EndIndex="376" />
+				<Rectangle StartIndex="398" EndIndex="398" />
+				<Rectangle StartIndex="406" EndIndex="406" />
+				<Rectangle StartIndex="429" EndIndex="429" />
+				<Rectangle StartIndex="435" EndIndex="435" />
+				<Rectangle StartIndex="459" EndIndex="459" />
+				<Rectangle StartIndex="465" EndIndex="465" />
+				<Rectangle StartIndex="490" EndIndex="490" />
+				<Rectangle StartIndex="494" EndIndex="494" />
+				<Rectangle StartIndex="520" EndIndex="520" />
+				<Rectangle StartIndex="524" EndIndex="524" />
+				<Rectangle StartIndex="551" EndIndex="551" />
+				<Rectangle StartIndex="553" EndIndex="553" />
+				<Rectangle StartIndex="581" EndIndex="581" />
+				<Rectangle StartIndex="583" EndIndex="583" />
+				<Rectangle StartIndex="612" EndIndex="612" />
+			</Pattern>
+			<Pattern Name="Triangle3"  Number="3" >
+				<Rectangle StartIndex="133" EndIndex="133" />
+				<Rectangle StartIndex="162" EndIndex="162" />
+				<Rectangle StartIndex="164" EndIndex="164" />
+				<Rectangle StartIndex="192" EndIndex="192" />
+				<Rectangle StartIndex="194" EndIndex="194" />
+				<Rectangle StartIndex="221" EndIndex="221" />
+				<Rectangle StartIndex="225" EndIndex="225" />
+				<Rectangle StartIndex="251" EndIndex="251" />
+				<Rectangle StartIndex="255" EndIndex="255" />
+				<Rectangle StartIndex="280" EndIndex="280" />
+				<Rectangle StartIndex="286" EndIndex="286" />
+				<Rectangle StartIndex="310" EndIndex="310" />
+				<Rectangle StartIndex="316" EndIndex="316" />
+				<Rectangle StartIndex="339" EndIndex="339" />
+				<Rectangle StartIndex="346" EndIndex="347" />
+				<Rectangle StartIndex="369" EndIndex="377" />
+			</Pattern>
+			<Pattern Name="Triangle4"  Number="4" >
+				<Rectangle StartIndex="134" EndIndex="134" />
+				<Rectangle StartIndex="163" EndIndex="163" />
+				<Rectangle StartIndex="165" EndIndex="165" />
+				<Rectangle StartIndex="193" EndIndex="193" />
+				<Rectangle StartIndex="195" EndIndex="195" />
+				<Rectangle StartIndex="222" EndIndex="222" />
+				<Rectangle StartIndex="226" EndIndex="226" />
+				<Rectangle StartIndex="252" EndIndex="252" />
+				<Rectangle StartIndex="256" EndIndex="256" />
+				<Rectangle StartIndex="281" EndIndex="281" />
+				<Rectangle StartIndex="287" EndIndex="287" />
+				<Rectangle StartIndex="311" EndIndex="311" />
+				<Rectangle StartIndex="317" EndIndex="317" />
+				<Rectangle StartIndex="340" EndIndex="340" />
+				<Rectangle StartIndex="347" EndIndex="348" />
+				<Rectangle StartIndex="370" EndIndex="378" />
+			</Pattern>
+			<Pattern Name="Triangle5"  Number="5" >
+				<Rectangle StartIndex="135" EndIndex="135" />
+				<Rectangle StartIndex="164" EndIndex="164" />
+				<Rectangle StartIndex="166" EndIndex="166" />
+				<Rectangle StartIndex="194" EndIndex="194" />
+				<Rectangle StartIndex="196" EndIndex="196" />
+				<Rectangle StartIndex="223" EndIndex="223" />
+				<Rectangle StartIndex="227" EndIndex="227" />
+				<Rectangle StartIndex="253" EndIndex="253" />
+				<Rectangle StartIndex="257" EndIndex="257" />
+				<Rectangle StartIndex="282" EndIndex="282" />
+				<Rectangle StartIndex="288" EndIndex="288" />
+				<Rectangle StartIndex="312" EndIndex="312" />
+				<Rectangle StartIndex="318" EndIndex="318" />
+				<Rectangle StartIndex="341" EndIndex="341" />
+				<Rectangle StartIndex="348" EndIndex="349" />
+				<Rectangle StartIndex="371" EndIndex="379" />
+			</Pattern>
+
+		</Patterns>
+	</Net>
+</Nets>
+
+

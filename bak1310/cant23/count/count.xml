@@ -1,0 +1,170 @@
+<Nets>
+	<Net Name ="internal" Cols ="50" Rows="52" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="2.0" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="3" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "1.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="15"  spontaneousActivationOn="false" 
+	cyclesPerRun="200" >
+		<Patterns>
+			<Pattern Name="one"  Number="1" >
+				<Rectangle StartIndex="1400" EndIndex="1599" />
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="rules" Cols ="50" Rows="44" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="2.0" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "1.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="18"  spontaneousActivationOn="false" 
+	cyclesPerRun="200" >
+		<Patterns>
+			<Pattern Name="one"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+		</Patterns>
+	</Net>	
+	<Net Name ="done" Cols ="20" Rows="10" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "1.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="80" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="18"  spontaneousActivationOn="false" 
+	cyclesPerRun="200" >
+		<Patterns>
+			<Pattern Name="blank"  Number="1" >
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="finish" Cols ="20" Rows="10" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="2.0" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="3" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "2.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="35"  spontaneousActivationOn="false" 
+	cyclesPerRun="200" >
+		<Patterns>
+			<Pattern Name="fOn"  Number="2" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="reset" Cols ="20" Rows="10" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="2.0" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="3" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "2.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="35"  spontaneousActivationOn="false" 
+	cyclesPerRun="200" >
+		<Patterns>
+			<Pattern Name="fOn"  Number="2" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="bind" Cols ="20" Rows="40" Topology="1" activationThreshold="6"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.8"  
+	decay="2" fatigueRate= "2.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="30"  spontaneousActivationOn="true" 
+	cyclesPerRun="200" >
+		<Patterns>
+			<Pattern Name="one"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="399" />
+			</Pattern>
+			<Pattern Name="two"  Number="2" >
+				<Rectangle StartIndex="400" EndIndex="799" />
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="BaseNet" Cols ="50" Rows="52" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="2.0" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "2.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="35"  spontaneousActivationOn="false" 
+	cyclesPerRun="200" >
+		<Patterns>
+			<Pattern Name="BindNegTest"  Number="13" >
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+			<Pattern Name="bindF3"  Number="13" >
+				<Rectangle StartIndex="1400" EndIndex="1599" />
+			</Pattern>
+			<Pattern Name="BindPosTest"  Number="13" >
+				<Rectangle StartIndex="1400" EndIndex="1599" />
+			</Pattern>
+			<Pattern Name="BindNegTest"  Number="13" >
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+			<Pattern Name="ruleone"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+				<Rectangle StartIndex="200" EndIndex="399" />
+				<Rectangle StartIndex="2400" EndIndex="2599" />
+			</Pattern>
+			<Pattern Name="ruletwo"  Number="2" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+				<Rectangle StartIndex="400" EndIndex="599" />
+				<Rectangle StartIndex="2400" EndIndex="2599" />
+			</Pattern>
+			<Pattern Name="rulefive"  Number="3" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+				<Rectangle StartIndex="1000" EndIndex="1199" />
+				<Rectangle StartIndex="2400" EndIndex="2599" />
+			</Pattern>
+			<Pattern Name="ruleeight"  Number="4" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+				<Rectangle StartIndex="1600" EndIndex="1799" />
+				<Rectangle StartIndex="2400" EndIndex="2599" />
+			</Pattern>
+			<Pattern Name="one"  Number="5" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+			</Pattern>
+			<Pattern Name="two"  Number="6" >
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+			<Pattern Name="three"  Number="7" >
+				<Rectangle StartIndex="400" EndIndex="599" />
+			</Pattern>
+			<Pattern Name="four"  Number="4" >
+				<Rectangle StartIndex="600" EndIndex="799" />
+			</Pattern>
+			<Pattern Name="five"  Number="5" >
+				<Rectangle StartIndex="800" EndIndex="999" />
+			</Pattern>
+			<Pattern Name="six"  Number="6" >
+				<Rectangle StartIndex="1000" EndIndex="1199" />
+			</Pattern>
+			<Pattern Name="seven"  Number="7" >
+				<Rectangle StartIndex="1200" EndIndex="1399" />
+			</Pattern>
+			<Pattern Name="eight"  Number="8" >
+				<Rectangle StartIndex="1400" EndIndex="1599" />
+			</Pattern>
+			<Pattern Name="nine"  Number="9" >
+				<Rectangle StartIndex="1600" EndIndex="1799" />
+			</Pattern>
+			<Pattern Name="nineb"  Number="9" >
+				<Rectangle StartIndex="1600" EndIndex="1799" />
+			</Pattern>
+			<Pattern Name="ninec"  Number="9" >
+				<Rectangle StartIndex="1600" EndIndex="1799" />
+			</Pattern>
+			<Pattern Name="ten"  Number="10" >
+				<Rectangle StartIndex="1800" EndIndex="1999" />
+			</Pattern>
+			<Pattern Name="eleven"  Number="11" >
+				<Rectangle StartIndex="2000" EndIndex="2199" />
+			</Pattern>
+			<Pattern Name="twelve"  Number="12" >
+				<Rectangle StartIndex="2200" EndIndex="2399" />
+			</Pattern>
+			<Pattern Name="plus"  Number="14" >
+				<Rectangle StartIndex="2400" EndIndex="2599" />
+			</Pattern>
+		</Patterns>
+	</Net>
+</Nets>

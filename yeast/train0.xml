@@ -1,0 +1,310 @@
+<Nets>
+	<Net Name ="BaseNet" Cols ="50" Rows="36"  Topology="1" 
+	activationThreshold="2.7"  axonalStrengthMedian="0.75" changeEachTime ="true"  compensatoryDivisor="10" learningOn="2" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" 
+	fatigueRate= "0.3" fatigueRecoveryRate="0.4" 
+	learningRate="0.01" likelihoodOfInhibitoryNeuron="55" neuronsFatigue="true" neuronsToStimulate="280" saturationBase="25"  spontaneousActivationOn="false" cyclesPerRun="20" >
+			<Patterns> 
+			<Pattern Name="0"  Number="0" >
+				<Rectangle StartIndex="43" EndIndex="49"/>
+				<Rectangle StartIndex="50" EndIndex="53"/>
+				<Rectangle StartIndex="152" EndIndex="162"/>
+				<Rectangle StartIndex="247" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="257"/>
+				<Rectangle StartIndex="356" EndIndex="366"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="646" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="656"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1000" EndIndex="1049"/>
+				<Rectangle StartIndex="1050" EndIndex="1099"/>
+			</Pattern>
+			<Pattern Name="1"  Number="1" >
+				<Rectangle StartIndex="78" EndIndex="88"/>
+				<Rectangle StartIndex="176" EndIndex="186"/>
+				<Rectangle StartIndex="240" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="250"/>
+				<Rectangle StartIndex="333" EndIndex="343"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="635" EndIndex="645"/>
+				<Rectangle StartIndex="721" EndIndex="731"/>
+				<Rectangle StartIndex="1400" EndIndex="1449"/>
+				<Rectangle StartIndex="1450" EndIndex="1499"/>
+			</Pattern>
+			<Pattern Name="2"  Number="2" >
+				<Rectangle StartIndex="45" EndIndex="49"/>
+				<Rectangle StartIndex="50" EndIndex="55"/>
+				<Rectangle StartIndex="140" EndIndex="149"/>
+				<Rectangle StartIndex="150" EndIndex="150"/>
+				<Rectangle StartIndex="243" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="253"/>
+				<Rectangle StartIndex="312" EndIndex="322"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="645" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="655"/>
+				<Rectangle StartIndex="721" EndIndex="731"/>
+				<Rectangle StartIndex="800" EndIndex="849"/>
+				<Rectangle StartIndex="850" EndIndex="899"/>
+			</Pattern>
+			<Pattern Name="3"  Number="3" >
+				<Rectangle StartIndex="39" EndIndex="49"/>
+				<Rectangle StartIndex="138" EndIndex="148"/>
+				<Rectangle StartIndex="229" EndIndex="239"/>
+				<Rectangle StartIndex="316" EndIndex="326"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="650" EndIndex="660"/>
+				<Rectangle StartIndex="735" EndIndex="745"/>
+				<Rectangle StartIndex="1100" EndIndex="1149"/>
+				<Rectangle StartIndex="1150" EndIndex="1199"/>
+			</Pattern>
+			<Pattern Name="4"  Number="4" >
+				<Rectangle StartIndex="39" EndIndex="49"/>
+				<Rectangle StartIndex="148" EndIndex="149"/>
+				<Rectangle StartIndex="150" EndIndex="158"/>
+				<Rectangle StartIndex="238" EndIndex="248"/>
+				<Rectangle StartIndex="312" EndIndex="322"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="649" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="659"/>
+				<Rectangle StartIndex="770" EndIndex="780"/>
+				<Rectangle StartIndex="900" EndIndex="949"/>
+				<Rectangle StartIndex="950" EndIndex="999"/>
+			</Pattern>
+			<Pattern Name="5"  Number="5" >
+				<Rectangle StartIndex="73" EndIndex="83"/>
+				<Rectangle StartIndex="164" EndIndex="174"/>
+				<Rectangle StartIndex="239" EndIndex="249"/>
+				<Rectangle StartIndex="321" EndIndex="331"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="649" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="659"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1300" EndIndex="1349"/>
+				<Rectangle StartIndex="1350" EndIndex="1399"/>
+			</Pattern>
+			<Pattern Name="6"  Number="6" >
+				<Rectangle StartIndex="23" EndIndex="33"/>
+				<Rectangle StartIndex="141" EndIndex="149"/>
+				<Rectangle StartIndex="150" EndIndex="151"/>
+				<Rectangle StartIndex="221" EndIndex="231"/>
+				<Rectangle StartIndex="313" EndIndex="323"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="634" EndIndex="644"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1500" EndIndex="1549"/>
+				<Rectangle StartIndex="1550" EndIndex="1599"/>
+			</Pattern>
+			<Pattern Name="7"  Number="7" >
+				<Rectangle StartIndex="41" EndIndex="49"/>
+				<Rectangle StartIndex="50" EndIndex="51"/>
+				<Rectangle StartIndex="132" EndIndex="142"/>
+				<Rectangle StartIndex="243" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="253"/>
+				<Rectangle StartIndex="331" EndIndex="341"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="643" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="653"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1600" EndIndex="1649"/>
+				<Rectangle StartIndex="1650" EndIndex="1699"/>
+			</Pattern>
+			<Pattern Name="8"  Number="8" >
+				<Rectangle StartIndex="90" EndIndex="99"/>
+				<Rectangle StartIndex="100" EndIndex="100"/>
+				<Rectangle StartIndex="166" EndIndex="176"/>
+				<Rectangle StartIndex="222" EndIndex="232"/>
+				<Rectangle StartIndex="334" EndIndex="344"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="626" EndIndex="636"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1200" EndIndex="1249"/>
+				<Rectangle StartIndex="1250" EndIndex="1299"/>
+			</Pattern>
+			<Pattern Name="9"  Number="9" >
+				<Rectangle StartIndex="41" EndIndex="49"/>
+				<Rectangle StartIndex="50" EndIndex="51"/>
+				<Rectangle StartIndex="127" EndIndex="137"/>
+				<Rectangle StartIndex="253" EndIndex="263"/>
+				<Rectangle StartIndex="312" EndIndex="322"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="656" EndIndex="666"/>
+				<Rectangle StartIndex="720" EndIndex="730"/>
+				<Rectangle StartIndex="900" EndIndex="949"/>
+				<Rectangle StartIndex="950" EndIndex="999"/>
+			</Pattern>
+			<Pattern Name="10"  Number="10" >
+				<Rectangle StartIndex="47" EndIndex="49"/>
+				<Rectangle StartIndex="50" EndIndex="56"/>
+				<Rectangle StartIndex="157" EndIndex="167"/>
+				<Rectangle StartIndex="249" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="259"/>
+				<Rectangle StartIndex="314" EndIndex="324"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="645" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="655"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1000" EndIndex="1049"/>
+				<Rectangle StartIndex="1050" EndIndex="1099"/>
+			</Pattern>
+			<Pattern Name="11"  Number="11" >
+				<Rectangle StartIndex="45" EndIndex="49"/>
+				<Rectangle StartIndex="50" EndIndex="55"/>
+				<Rectangle StartIndex="140" EndIndex="149"/>
+				<Rectangle StartIndex="150" EndIndex="150"/>
+				<Rectangle StartIndex="243" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="253"/>
+				<Rectangle StartIndex="312" EndIndex="322"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="645" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="655"/>
+				<Rectangle StartIndex="721" EndIndex="731"/>
+				<Rectangle StartIndex="800" EndIndex="849"/>
+				<Rectangle StartIndex="850" EndIndex="899"/>
+			</Pattern>
+			<Pattern Name="12"  Number="12" >
+				<Rectangle StartIndex="81" EndIndex="91"/>
+				<Rectangle StartIndex="187" EndIndex="197"/>
+				<Rectangle StartIndex="245" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="255"/>
+				<Rectangle StartIndex="332" EndIndex="342"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="648" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="658"/>
+				<Rectangle StartIndex="727" EndIndex="737"/>
+				<Rectangle StartIndex="1700" EndIndex="1749"/>
+				<Rectangle StartIndex="1750" EndIndex="1799"/>
+			</Pattern>
+			<Pattern Name="13"  Number="13" >
+				<Rectangle StartIndex="34" EndIndex="44"/>
+				<Rectangle StartIndex="144" EndIndex="149"/>
+				<Rectangle StartIndex="150" EndIndex="154"/>
+				<Rectangle StartIndex="225" EndIndex="235"/>
+				<Rectangle StartIndex="314" EndIndex="324"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="647" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="657"/>
+				<Rectangle StartIndex="726" EndIndex="736"/>
+				<Rectangle StartIndex="1100" EndIndex="1149"/>
+				<Rectangle StartIndex="1150" EndIndex="1199"/>
+			</Pattern>
+			<Pattern Name="14"  Number="14" >
+				<Rectangle StartIndex="46" EndIndex="49"/>
+				<Rectangle StartIndex="50" EndIndex="56"/>
+				<Rectangle StartIndex="141" EndIndex="149"/>
+				<Rectangle StartIndex="150" EndIndex="151"/>
+				<Rectangle StartIndex="244" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="254"/>
+				<Rectangle StartIndex="316" EndIndex="326"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="650" EndIndex="660"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1500" EndIndex="1549"/>
+				<Rectangle StartIndex="1550" EndIndex="1599"/>
+			</Pattern>
+			<Pattern Name="15"  Number="15" >
+				<Rectangle StartIndex="27" EndIndex="37"/>
+				<Rectangle StartIndex="163" EndIndex="173"/>
+				<Rectangle StartIndex="246" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="256"/>
+				<Rectangle StartIndex="311" EndIndex="321"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="578" EndIndex="588"/>
+				<Rectangle StartIndex="650" EndIndex="660"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1600" EndIndex="1649"/>
+				<Rectangle StartIndex="1650" EndIndex="1699"/>
+			</Pattern>
+			<Pattern Name="16"  Number="16" >
+				<Rectangle StartIndex="92" EndIndex="99"/>
+				<Rectangle StartIndex="100" EndIndex="102"/>
+				<Rectangle StartIndex="166" EndIndex="176"/>
+				<Rectangle StartIndex="224" EndIndex="234"/>
+				<Rectangle StartIndex="337" EndIndex="347"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="630" EndIndex="640"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1200" EndIndex="1249"/>
+				<Rectangle StartIndex="1250" EndIndex="1299"/>
+			</Pattern>
+			<Pattern Name="17"  Number="17" >
+				<Rectangle StartIndex="73" EndIndex="83"/>
+				<Rectangle StartIndex="164" EndIndex="174"/>
+				<Rectangle StartIndex="239" EndIndex="249"/>
+				<Rectangle StartIndex="321" EndIndex="331"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="649" EndIndex="649"/>
+				<Rectangle StartIndex="650" EndIndex="659"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1300" EndIndex="1349"/>
+				<Rectangle StartIndex="1350" EndIndex="1399"/>
+			</Pattern>
+			<Pattern Name="18"  Number="18" >
+				<Rectangle StartIndex="65" EndIndex="75"/>
+				<Rectangle StartIndex="153" EndIndex="163"/>
+				<Rectangle StartIndex="248" EndIndex="249"/>
+				<Rectangle StartIndex="250" EndIndex="258"/>
+				<Rectangle StartIndex="334" EndIndex="344"/>
+				<Rectangle StartIndex="445" EndIndex="449"/>
+				<Rectangle StartIndex="450" EndIndex="455"/>
+				<Rectangle StartIndex="495" EndIndex="499"/>
+				<Rectangle StartIndex="500" EndIndex="505"/>
+				<Rectangle StartIndex="654" EndIndex="664"/>
+				<Rectangle StartIndex="717" EndIndex="727"/>
+				<Rectangle StartIndex="1400" EndIndex="1449"/>
+				<Rectangle StartIndex="1450" EndIndex="1499"/>
+			</Pattern>
+		</Patterns>
+	</Net>
+</Nets>	

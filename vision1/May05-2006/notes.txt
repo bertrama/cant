@@ -1,0 +1,27 @@
+This should plug right into the top level and work.  (I'm hoping to change
+propogate change so all the nets change at the same time instead of serially,  this might lead to a problem.)
+
+It recognizes up facing triangles and down facing triangles.  It
+probably won't work if they're off center from the activation point,
+but that could be fixed relatively easily by putting in excitatory
+connection to adjacent activation points.
+
+The retina has on-off and off-on receptors with 3x3, 6x6 and 9x9 receptive
+fields.  That seems ok, but we certainly don't take full advantage of
+them.
+
+The triangle recognizers work essentially by getting the correct 
+orientation and location lines from 3x3 on-off; correct angles with 
+locations from 6x6 on-off, and centering information from 9x9 off-on.
+
+It has a number of problems that I'm not comfortable with.
+
+The activation point thing is really not very good.  Why should 
+just one neuron come on if a triangle is present?
+
+There are no back connections from say V2 to V1.  These should make
+things better.
+
+I think we use too many neurons.  I'm sure a similar job could be
+done with fewer neurons.
+

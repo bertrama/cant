@@ -1,0 +1,45 @@
+<Nets>
+	<Net Name ="BaseNet" Cols ="40" Rows="16" Topology="-1" activationThreshold="4"  
+	axonalStrengthMedian="0.7" changeEachTime ="true"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.8"  
+	decay="3" fatigueRate= "0.6" fatigueRecoveryRate="0.9" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="40" saturationBase="18"  spontaneousActivationOn="false" 
+	cyclesPerRun="20" >
+		<Patterns>
+			<Pattern Name="Dog"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="39" />
+				<Rectangle StartIndex="240" EndIndex="319" />
+				<Rectangle StartIndex="360" EndIndex="399" />
+				<Rectangle StartIndex="520" EndIndex="559" />
+			</Pattern>
+			<Pattern Name="Cat" Number="2" >
+				<Rectangle StartIndex="40" EndIndex="79" />
+				<Rectangle StartIndex="240" EndIndex="319" />
+				<Rectangle StartIndex="400" EndIndex="439" />
+				<Rectangle StartIndex="560" EndIndex="599" />
+			</Pattern>
+			<Pattern Name="Rat"  Number="3" >
+				<Rectangle StartIndex="80" EndIndex="119" />
+				<Rectangle StartIndex="240" EndIndex="319" />
+				<Rectangle StartIndex="440" EndIndex="479" />
+				<Rectangle StartIndex="520" EndIndex="559" />
+			</Pattern>
+			<Pattern Name="Goose"  Number="4" >
+				<Rectangle StartIndex="160" EndIndex="199" />
+				<Rectangle StartIndex="240" EndIndex="279" />
+				<Rectangle StartIndex="320" EndIndex="359" />
+				<Rectangle StartIndex="480" EndIndex="519" />
+				<Rectangle StartIndex="600" EndIndex="639" />
+			</Pattern>
+			<Pattern Name="Pigeon"  Number="5" >
+				<Rectangle StartIndex="200" EndIndex="279" />
+				<Rectangle StartIndex="320" EndIndex="359" />
+				<Rectangle StartIndex="480" EndIndex="519" />
+				<Rectangle StartIndex="520" EndIndex="559" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+</Nets>
+

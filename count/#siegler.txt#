@@ -1,0 +1,157 @@
+2+1   4
+3+1   2/1
+4+1   2/1
+5+1   3
+
+
+
+C:\j2sdk1.4.2_08\bin\java.exe   -mx400200300 CANT23Count 
+Working Directory - K:\progs\cant\CANT23\
+Class Path - K:\progs\cant\CANT23\hier;K:\progs\cant\CANT23\count;.;c:\Kawa4.01\kawaclasses.zip;c:\j2sdk1.4.2_08\lib\tools.jar;c:\j2sdk1.4.2_08\jre\lib\rt.jar
+initialize CANT Count 
+initialize Count Experiment 
+count 
+swithctotest 
+test 2+1 rules 
+internalActive 3 113 150
+test 3+1 rules 
+internalActive 4 110 350
+test 4+1 rules 
+internalActive 5 116 550
+test 5+1 rules 
+internalActive 6 111 750
+test 2+1 rules 
+internalActive 3 114 950
+test 3+1 rules 
+internalActive 4 111 1150
+test 4+1 rules 
+internalActive 4 109 1350
+internalActive 5 104 1350
+test 5+1 rules 
+internalActive 6 100 1550
+test 2+1 rules 
+internalActive 3 108 1750
+test 3+1 rules 
+internalActive 5 115 1950
+test 4+1 rules 
+internalActive 5 117 2150
+test 5+1 rules 
+internalActive 6 109 2350
+internalActive 3 104 2450
+test 2+1 rules 
+internalActive 3 111 2550
+internalActive 3 100 2580
+test 3+1 rules 
+internalActive 4 113 2750
+test 4+1 rules 
+internalActive 5 115 2950
+test 5+1 rules 
+internalActive 6 110 3150
+test 2+1 rules 
+internalActive 3 119 3350
+test 3+1 rules 
+internalActive 5 125 3550
+test 4+1 rules 
+internalActive 5 107 3750
+test 5+1 rules 
+internalActive 6 120 3950
+test 2+1 rules 
+internalActive 3 102 4150
+test 3+1 rules 
+internalActive 4 133 4350
+internalActive 1 105 4450
+internalActive 4 144 4450
+internalActive 5 109 4450
+internalActive 6 97 4450
+test 4+1 rules 
+internalActive 1 102 4550
+internalActive 4 123 4550
+internalActive 5 117 4550
+internalActive 7 112 4550
+internalActive 1 114 4580
+internalActive 4 127 4580
+internalActive 5 110 4580
+internalActive 7 123 4580
+test 5+1 rules 
+internalActive 4 111 4750
+internalActive 5 101 4750
+internalActive 6 74 4750
+internalActive 7 99 4750
+test 2+1 rules 
+internalActive 3 103 4950
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+test 2+1 rules 
+internalActive 2 116 150
+internalActive 4 109 150
+test 3+1 rules 
+internalActive 5 120 350
+test 4+1 rules 
+internalActive 6 127 550
+test 5+1 rules 
+internalActive 6 124 750
+test 2+1 rules 
+internalActive 3 114 950
+test 3+1 rules 
+internalActive 4 121 1150
+test 4+1 rules 
+internalActive 5 1 1350
+internalActive 6 146 1350
+test 5+1 rules 
+internalActive 6 97 1550
+test 2+1 rules 
+internalActive 3 113 1750
+test 3+1 rules 
+internalActive 4 128 1950
+test 4+1 rules 
+internalActive 6 120 2150
+test 5+1 rules 
+internalActive 5 103 2350
+internalActive 6 150 2350
+internalActive 7 122 2350
+internalActive 13 110 2350
+internalActive 3 125 2450
+test 2+1 rules 
+internalActive 3 123 2550
+internalActive 3 106 2580
+test 3+1 rules 
+internalActive 4 121 2750
+test 4+1 rules 
+internalActive 5 109 2950
+test 5+1 rules 
+internalActive 5 140 3150
+internalActive 6 134 3150
+internalActive 7 128 3150
+internalActive 8 8 3150
+internalActive 13 140 3150
+test 2+1 rules 
+internalActive 3 101 3350
+internalActive 5 99 3350
+internalActive 7 110 3350
+internalActive 13 121 3350
+test 3+1 rules 
+internalActive 5 104 3550
+test 4+1 rules 
+internalActive 5 106 3750
+test 5+1 rules 
+internalActive 5 93 3950
+internalActive 6 94 3950
+internalActive 7 99 3950
+internalActive 13 96 3950
+test 2+1 rules 
+internalActive 3 111 4150
+test 3+1 rules 
+internalActive 4 131 4350
+internalActive 5 110 4450
+internalActive 7 1 4450
+internalActive 13 98 4450
+test 4+1 rules 
+internalActive 6 107 4550
+internalActive 6 121 4580
+test 5+1 rules 
+internalActive 6 136 4750
+test 2+1 rules 
+internalActive 3 103 4950
+experiment Done5000

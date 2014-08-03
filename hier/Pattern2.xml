@@ -1,0 +1,7 @@
+		<Patterns>
+			<Pattern Name="Bear1"  Number="1" >
+				<Rectangle StartIndex="120" EndIndex="159" />
+				<Rectangle StartIndex="240" EndIndex="319" />
+			</Pattern>
+		</Patterns>
+

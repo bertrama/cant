@@ -1,0 +1,42 @@
+
+//This neuron will have fast bind synapses.  
+//The fast bind synapses will just increase or decrease by the
+//learning rate, but also loose weight each time they don't fire. 
+public class CANTNeuronFastBind extends CANTNeuron {
+  
+  public CANTNeuronFastBind(int neuronID, CANTNet net) {
+  	super(neuronID, net);
+  } 
+  
+  double fastBindWeightChange = 0.01; 
+  
+  public void fastLearn() {
+  	double weight = 0.0;
+    if (getFired())
+//System.out.println("fastLearn " + id);	
+	  for (int synapseIndex = 0; synapseIndex < getCurrentSynapses(); synapseIndex++)
+	  {
+	  	CANTNeuron toNeuron = synapses[synapseIndex].getTo();
+	  	if (toNeuron.getFired()) 
+		  {
+		  weight = synapses[synapseIndex].getWeight();
+		  weight += parentNet.getLearningRate();
+	  	  synapses[synapseIndex].setWeight(weight);
+		  }
+	  } 
+	//here's where the weight slowly fades
+	else //not fired
+	{
+	  for (int synapseIndex = 0; synapseIndex < getCurrentSynapses(); synapseIndex++)
+	  {
+	    weight = synapses[synapseIndex].getWeight();
+		if (isInhibitory()) 
+		  weight += fastBindWeightChange;
+		else   
+          weight -= fastBindWeightChange;
+	    synapses[synapseIndex].setWeight(weight);
+	  }
+	}
+  }	
+  
+}

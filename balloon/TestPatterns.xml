@@ -1,0 +1,17 @@
+		<Patterns>
+			<Pattern Name="test" Number="17" >
+				<Rectangle StartIndex="20" EndIndex="39" />
+				<Rectangle StartIndex="60" EndIndex="79" />
+				<Rectangle StartIndex="100" EndIndex="119" />
+				<Rectangle StartIndex="140" EndIndex="159" />
+			</Pattern>
+			
+			<Pattern Name="TEST2" Number="18" >
+				<Rectangle StartIndex="0" EndIndex="19" />
+				<Rectangle StartIndex="40" EndIndex="59" />
+				<Rectangle StartIndex="80" EndIndex="99" />
+				<Rectangle StartIndex="140" EndIndex="159" />
+				
+			</Pattern>
+
+		</Patterns>

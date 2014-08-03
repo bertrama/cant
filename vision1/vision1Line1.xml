@@ -1,0 +1,64 @@
+<Nets>
+	<Net Name ="BaseNet" Cols ="30" Rows="30" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.2" fatigueRate= "0.4" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="false" 
+	neuronsToStimulate="28" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="151" EndIndex="178" />
+			</Pattern>
+			<Pattern Name="Line2"  Number="1" >
+				<Rectangle StartIndex="151" EndIndex="161" />
+				<Rectangle StartIndex="181" EndIndex="191" />
+			</Pattern>
+			<Pattern Name="Square"  Number="2" >
+				<Rectangle StartIndex="121" EndIndex="125" />
+				<Rectangle StartIndex="151" EndIndex="155" />
+				<Rectangle StartIndex="181" EndIndex="185" />
+				<Rectangle StartIndex="211" EndIndex="215" />
+				<Rectangle StartIndex="241" EndIndex="245" />
+			</Pattern>
+			<Pattern Name="OnOff3b"  Number="3" >
+				<Rectangle StartIndex="175" EndIndex="176" />
+			</Pattern>
+			<Pattern Name="OnOff3c"  Number="4" >
+				<Rectangle StartIndex="175" EndIndex="177" />
+			</Pattern>
+			<Pattern Name="OnOff3a"  Number="5" >
+				<Rectangle StartIndex="175" EndIndex="175" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="RetinaNet" Cols ="30" Rows="180" Topology="2" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="2.0" fatigueRate= "0.6" fatigueRecoveryRate="0.15" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="V1Net" Cols ="30" Rows="60" Topology="2" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02" connectivity="0.4"  
+	decay="2.0" fatigueRate= "0.6" fatigueRecoveryRate="0.15" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+			</Pattern>
+		</Patterns>
+	</Net>
+</Nets>
+

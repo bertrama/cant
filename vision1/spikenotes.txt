@@ -1,0 +1,99 @@
+RETINA
+For 3x3 on/off, value = (on - (off/8))
+  1, 0 = 1
+  1, 1 = .87
+  1, 2 = .75
+  1, 3 = .62
+  1, 4 = .5
+Anything below .5 does not fire
+
+For 3x3 off/on, valu = ((off/8) - on)
+  8,0 =  1
+  7,0 = .87
+  6,0 = .75
+  5,0 = .62
+  4,0 = .5
+
+For 6x6 on/off, value = ((on/4) - (off/32))
+  4,0 = 1
+  4,1 =.969
+  3,0 = .75
+  2,0 = .5
+
+onoff
+value = 1   6 spikes followed by alternating spikes decreasing to 
+           one every fourth
+value = .87 4 spikes followed by alternating spikes decreasing to
+           one every fourth
+value = .75 1 spike followed by alternating spikes decreasing to 1/4
+value = .67 off then spike followed by alternating spikes decreasing to 1/4
+value = .5 does fire
+value < .5 doesn't fire
+
+threshold = 4
+fatigue+  = .6
+fatigue-  = .15
+decay     = 2
+3x3 + = 7.1
+3x3 - = -1.5
+6x6 + = 7.1/4
+6x6 - = -7.1/32
+9x9 + = 7.1/9
+
+offon behaves a bit differently
+3x3f+ = 7.1/8
+3x3f- = -7.1 (something smaller works)
+6x6f+ = 7.1/32
+6x6f- = -7.1/4
+9x9f+ = 7.1/72
+9x9f- = -7.1/9
+With these weights, value = 1 works the same.  However, down to 
+value = 3/8 there is some firing (by 2/8 it stops).  Decay of 2
+affects this.  There is no reason this can't change.  
+It does however never fire when the centre is on.
+
+
+************************************************
+LINES
+Given this spike behavior, what should be the retinal inputs to
+line detectors?  Let's assume that we have a 30x30 network for
+each line orientation, and one of those neurons should fire
+rapidly if a line (of varying widths) passes through the point
+at that orientation. 
+
+If a 1 pixel wide horizontal line passes through x,y than the 3x3 on-off
+retina for x,y; x-1,y; and x+1,y will be at .75 so one spike followed
+by alternating spikes down to 1/4. It will be .87 if x-1, or x+1 is the end 
+of the line. If a 2pixel wide horizontal line passes through x,y than the
+6x6 on-off retina for x-y will spike twice followed by alternating spikes.
+
+Lets keep 
+threshold 4
+fatigue+  = .6
+fatigue-  = .15
+decay     = 2
+
+3x3 on 4/3 = 1.4
+A 3x3 line (no endpoint) 
+
+
+
+******************************************
+TESTS
+There seem to be good tests in machine vision;  you could use
+Usama's license plate test with top down information.  You could
+also use some of the picture data out there and see if you 
+reconstruct good pictures or even clean up dirty data.  This should
+also work for negative pictures.
+
+******************************************
+I just copied a triangle recognising system to May 02 2006.
+Now, I'm going to make a triangle recogniser for different positions.
+The saved version is position insensitive, but will activate (the one
+neuron) for a lot of things that aren't triangles.
+I'll try 6x6 recognisers (so each one overlaps with 2 vertical and 2 horizontal).
+That largely works with different neurons coming on in V2.
+
+Now lets try to get V2 to complete.
+
+

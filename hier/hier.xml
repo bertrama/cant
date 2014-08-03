@@ -1,0 +1,29 @@
+<Nets>
+	<Net Name ="BaseNet" Cols ="20" Rows="40" Topology="-1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="true"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.2" fatigueRate= "0.4" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="80" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Dog"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="79" />
+				<Rectangle StartIndex="240" EndIndex="479" />
+				<Rectangle StartIndex="640" EndIndex="719" />
+			</Pattern>
+			<Pattern Name="Cat" Number="2" >
+				<Rectangle StartIndex="80" EndIndex="159" />
+				<Rectangle StartIndex="240" EndIndex="399" />
+				<Rectangle StartIndex="480" EndIndex="559" />
+				<Rectangle StartIndex="720" EndIndex="799" />
+			</Pattern>
+			<Pattern Name="Rat"  Number="3" >
+				<Rectangle StartIndex="160" EndIndex="399" />
+				<Rectangle StartIndex="560" EndIndex="719" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+</Nets>
+

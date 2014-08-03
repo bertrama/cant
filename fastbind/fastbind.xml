@@ -1,0 +1,84 @@
+<Nets>
+	<Net Name ="BaseNet" Cols ="20" Rows="200" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "0.8" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="50" saturationBase="30"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Red"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+			</Pattern>
+			<Pattern Name="Orange"  Number="2" >
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+			<Pattern Name="Saffron"  Number="3" >
+				<Rectangle StartIndex="400" EndIndex="599" />
+			</Pattern>
+			<Pattern Name="Yellow"  Number="4" >
+				<Rectangle StartIndex="600" EndIndex="799" />
+			</Pattern>
+			<Pattern Name="Fern"  Number="5" >
+				<Rectangle StartIndex="800" EndIndex="999" />
+			</Pattern>
+			<Pattern Name="Green"  Number="6" >
+				<Rectangle StartIndex="1000" EndIndex="1199" />
+			</Pattern>
+			<Pattern Name="Aqua"  Number="7" >
+				<Rectangle StartIndex="1200" EndIndex="1399" />
+			</Pattern>
+			<Pattern Name="Blue"  Number="8" >
+				<Rectangle StartIndex="1400" EndIndex="1599" />
+			</Pattern>
+			<Pattern Name="Purple"  Number="9" >
+				<Rectangle StartIndex="1600" EndIndex="1799" />
+			</Pattern>
+			<Pattern Name="Violet"  Number="10" >
+				<Rectangle StartIndex="1800" EndIndex="1999" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="OtherNet" Cols ="20" Rows="100" Topology="2" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.4"  
+	decay="1.5" fatigueRate= "0.4" fatigueRecoveryRate="0.8" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="30"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Hexagon"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+			</Pattern>
+			<Pattern Name="Square"  Number="2" >
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+			<Pattern Name="Triangle"  Number="3" >
+				<Rectangle StartIndex="400" EndIndex="599" />
+			</Pattern>
+			<Pattern Name="Star"  Number="4" >
+				<Rectangle StartIndex="600" EndIndex="799" />
+			</Pattern>
+			<Pattern Name="Heart"  Number="5" >
+				<Rectangle StartIndex="800" EndIndex="999" />
+			</Pattern>
+			<Pattern Name="Clover"  Number="6" >
+				<Rectangle StartIndex="1000" EndIndex="1199" />
+			</Pattern>
+			<Pattern Name="Moon"  Number="7" >
+				<Rectangle StartIndex="1200" EndIndex="1399" />
+			</Pattern>
+			<Pattern Name="Cross"  Number="8" >
+				<Rectangle StartIndex="1400" EndIndex="1599" />
+			</Pattern>
+			<Pattern Name="Leaf"  Number="9" >
+				<Rectangle StartIndex="1600" EndIndex="1799" />
+			</Pattern>
+			<Pattern Name="Circle"  Number="10" >
+				<Rectangle StartIndex="1800" EndIndex="1999" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+</Nets>

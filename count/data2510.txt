@@ -1,0 +1,174 @@
+Here I've added finish to rules connections and the
+internal rules weight is .36
+
+6       9
+6       5
+6       9
+6       6
+6       9
+6       9
+6       9
+6       10
+
+3-6 100%
+4-9 5/8 correct
+    1/8 early bind stop
+    1/8 early non-bind stop
+    1/8 late stop 
+
+C:\j2sdk1.4.2_08\bin\java.exe   -mx400200300 CANT23Count 
+Working Directory - K:\progs\cant\CANT23\
+Class Path - K:\progs\cant\CANT23\count;.;c:\Kawa4.01\kawaclasses.zip;c:\j2sdk1.4.2_08\lib\tools.jar;c:\j2sdk1.4.2_08\jre\lib\rt.jar
+initialize CANT Count 
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 23 2450
+internalActive 4 66 2450
+CANT run one step
+CANT run one step
+internalActive 6 124 2580
+internalActive 7 1 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 56 4450
+internalActive 5 96 4450
+internalActive 1 9 4580
+internalActive 9 187 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 10 2450
+internalActive 4 65 2450
+internalActive 6 95 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 10 4450
+internalActive 5 72 4450
+internalActive 1 8 4580
+internalActive 5 109 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 32 2450
+internalActive 4 97 2450
+internalActive 6 115 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 39 4450
+internalActive 6 119 4450
+internalActive 9 118 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 18 2450
+internalActive 4 113 2450
+internalActive 6 99 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 17 4450
+internalActive 6 87 4450
+internalActive 1 14 4580
+internalActive 6 68 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 1 2450
+internalActive 4 111 2450
+internalActive 6 123 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 6 4450
+internalActive 6 64 4450
+internalActive 9 111 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 2 2450
+internalActive 4 113 2450
+internalActive 6 111 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 48 4450
+internalActive 5 55 4450
+internalActive 9 67 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 171 2450
+internalActive 4 90 2450
+internalActive 6 128 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 72 4450
+internalActive 5 101 4450
+internalActive 9 104 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 14 2450
+internalActive 4 124 2450
+internalActive 6 131 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 129 4450
+internalActive 5 91 4450
+internalActive 6 127 4580
+internalActive 9 2 4580
+Unbinding
+experiment Done5000
+initialize Count Experiment 
+count 
+swithctotest 
+binding 9
+test counting 
+internalActive 1 104 2450
+internalActive 3 76 2450
+internalActive 6 143 2580
+Unbinding
+binding 8
+test counting 
+internalActive 1 15 4450
+internalActive 5 74 4450
+internalActive 10 115 4580
+Unbinding
+experiment Done5000
+Process Exit...

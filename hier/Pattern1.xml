@@ -1,0 +1,16 @@
+		<Patterns>
+			<Pattern Name="Mammal"  Number="1" >
+				<Rectangle StartIndex="480" EndIndex="639" />
+				<Rectangle StartIndex="1040" EndIndex="1119" />
+			</Pattern>
+			<Pattern Name="Bird"  Number="2" >
+				<Rectangle StartIndex="480" EndIndex="559" />
+				<Rectangle StartIndex="640" EndIndex="719" />
+				<Rectangle StartIndex="960" EndIndex="1039" />
+			</Pattern>
+			<Pattern Name="Animal"  Number="3" >
+				<Rectangle StartIndex="480" EndIndex="559" />
+				<Rectangle StartIndex="1040" EndIndex="1119" />
+			</Pattern>
+		</Patterns>
+
