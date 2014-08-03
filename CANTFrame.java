@@ -237,10 +237,25 @@ public void actionPerformed (ActionEvent evt) {
     parentNet.readNet(false);  //crhz undone should be true
   }
   else if (evt.getSource() == readAllNets ) {
-  	parentNet.readAllNets();
+    parentNet.readAllNets();
 	
-	parentNet.readBetweenAllNets();	  
+    //I shouldn't need to do this but should merely be able to call
+    //parentNet.readBetweenAllNets();
+    //However the dynamic binding seems to fail and always call the
+    //CANTNet version, so I do this.
+    //  	if (parentNet instanceof CANTNetParse1) 
+    //{
+    //System.out.println("Parse1 Net");    
+    //   CANTNetParse1 net = (CANTNetParse1)parentNet;
+    //   net.readBetweenAllNets();
+    //}  
+    //else if (parentNet instanceof CANTNet) 
+    // {
+    //System.out.println("CANT Net");      
+   parentNet.readBetweenAllNets();
+   // }
   }
+
    else if (evt.getSource()== selectPattern) {
       userParamField.setText(
 	     Integer.toString(parentNet.getCurrentPattern()));

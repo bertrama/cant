@@ -151,19 +151,19 @@ public class CANTNet {
   
 	
   public void initializeNeurons() {
-  	createNeurons();
+    createNeurons();
     if (topology < 0){
       setConnections(0,size());
     } 
-	else System.out.println("bad topology specified "+ topology);
+    else System.out.println("bad topology specified "+ topology);
   }
 	
   //---------------IO Functions -------
   protected void createNeurons() {
-  	totalNeurons = 0;
-  	neurons = new CANTNeuron[cols*rows];
-  	for(int i=0;i< cols*rows;i++)
-  	  neurons[i] = new CANTNeuron(totalNeurons++,this);
+    totalNeurons = 0;
+    neurons = new CANTNeuron[cols*rows];
+    for(int i=0;i< cols*rows;i++)
+      neurons[i] = new CANTNeuron(totalNeurons++,this);
   }
 
   public void readBetweenAllNets() {
@@ -193,9 +193,9 @@ public class CANTNet {
   public static void readAllNets() {
     System.out.println("read all nets");
 
-    Enumeration enum = CANT23.nets.elements();
-    while (enum.hasMoreElements()) {
-      CANTNet net = (CANTNet)enum.nextElement();
+    Enumeration eNum = CANT23.nets.elements();
+    while (eNum.hasMoreElements()) {
+      CANTNet net = (CANTNet)eNum.nextElement();
       net.readNet(false);
     }	
   }
@@ -238,11 +238,11 @@ public class CANTNet {
       System.out.print ( Integer.toString(cols) + "\n");
 
       //Create new neurons
-	  createNeurons();
+      createNeurons();
 
       //read the neurons
       for (int cNeurons=0; cNeurons < (rows*cols); cNeurons++) {
-	  	neurons[cNeurons].readNeuron(inputFile,readInterConnections);
+ 	neurons[cNeurons].readNeuron(inputFile,readInterConnections);
       }
 	  
       inputFile.close();
@@ -421,10 +421,10 @@ public class CANTNet {
   //This is called from step in frame and makes
   //all of the nets run one step
   public void runAllOneStep(int cantStep) {
-    Enumeration enum = CANT23.nets.elements();
+    Enumeration eNum = CANT23.nets.elements();
   
-    while (enum.hasMoreElements()) {
-      CANTNet net = (CANTNet)enum.nextElement();
+    while (eNum.hasMoreElements()) {
+      CANTNet net = (CANTNet)eNum.nextElement();
 	  net.runOneStep(cantStep);
     }
   }
@@ -442,7 +442,6 @@ public class CANTNet {
   public void learn() {
     if (learningOn == 0) return;
 //System.out.println(getName() + " " +  axonalStrengthMedian + " " + saturationBase);
-
 
     int totalNeurons = size();
     for (int neuronIndex = 0; neuronIndex < totalNeurons; neuronIndex++) 
@@ -630,6 +629,7 @@ System.out.println("total excitatory neurons = "+inhibitoryCount);
   public void kludge() {
   //this is just a function for debugging purposes.  Subclass it so you can
   //call it from the interface.
+  System.out.println("CANTNet kludge ");
   }
 
 private void printAverageFatigue(){

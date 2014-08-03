@@ -9,6 +9,7 @@ public class Matrix extends Panel{
   private int[][] cells;
   private String[] textToPrint;
   private int [] textPosToPrint=new int[20];
+  private int textHPosToPrint;
   private int numTexts=0;
 
 
@@ -17,8 +18,9 @@ public class Matrix extends Panel{
       rows = Rows;
       this.setBounds(LEFT_BORDER, TOP_BORDER, cols*SQUARE_SIZE, rows*SQUARE_SIZE);
       cells=new int [cols][rows];
-	  textToPrint=new String[20];
+      textToPrint=new String[20];
       textPosToPrint[0] = -1;
+      textHPosToPrint = -1;
       clear();
     }
 	
@@ -43,44 +45,55 @@ public class Matrix extends Panel{
     }
 
 
-  public void addStringsToPrint(String s, int hPos) 
+  public void addStringsToPrint(String s, int vPos, int hPos) 
   {
-  	try {
+    try {
       textToPrint[numTexts] = new String(s);
-	  textPosToPrint[numTexts] = hPos;
+      textPosToPrint[numTexts] = vPos;
+      textHPosToPrint = hPos;
       numTexts++;
     }
    catch (Exception e) {
-        System.err.println("add Strings in matrix died" +
-                             e.toString());
-        System.exit(1);  }
-    
+    System.err.println("add Strings in matrix v h died" + e.toString());
+    System.exit(1);  }  
+  }
+
+  public void addStringsToPrint(String s, int vPos) 
+  {
+    try {
+      textToPrint[numTexts] = new String(s);
+      textPosToPrint[numTexts] = vPos;
+      numTexts++;
+    }
+   catch (Exception e) {
+    System.err.println("add Strings in matrix v died" + e.toString());
+    System.exit(1);  }  
   }
 
   public void addStringsToPrint(String s) 
   {
-  	try {
+    try {
       textToPrint[numTexts] = new String(s);
-	  numTexts++;
-	  }
-	 catch (Exception e) {
-	      System.err.println("add Strings in matrix died" +
-	                           e.toString());
-	      System.exit(1);  }
-	  
+      numTexts++;
+    }
+    catch (Exception e) {
+     System.err.println("add Strings in matrix died" + e.toString());
+     System.exit(1);  }
   }
 	  
   private void printStrings(Graphics g) 
   {
   	for (int i = 0; i < numTexts;i++)
 	{
-//System.out.println("prints "+textToPrint[i]+i);
+//System.out.println("prints "+textToPrint[i]+textPosToPrint[i]+i);
       g.setColor(Color.black);
-	  if (textPosToPrint[0] > 0)
-	    g.drawString(textToPrint[i],400,textPosToPrint[i]);
-	  else	
-	    g.drawString(textToPrint[i],400,360*(i+1));
-	}
+      if (textHPosToPrint > 0)
+	g.drawString(textToPrint[i],textHPosToPrint,textPosToPrint[i]);
+      else if (textPosToPrint[0] > 0)
+	g.drawString(textToPrint[i],400,textPosToPrint[i]);
+      else	
+	g.drawString(textToPrint[i],400,360*(i+1));
+      }
   }
 
     public void paint(Graphics g) {

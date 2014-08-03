@@ -36,14 +36,14 @@ System.out.println("Start CANT ");
   }
   
   protected static void closeSystem() {
-    Enumeration enum = nets.elements();
+    Enumeration eNum = nets.elements();
 	CANTNet net;
 
     do	{
-      net = (CANTNet)enum.nextElement();
+      net = (CANTNet)eNum.nextElement();
       net.cantFrame.dispose();
 	}
-    while (enum.hasMoreElements());
+    while (eNum.hasMoreElements());
 	
     CANTStep=0;  
   }
@@ -51,9 +51,9 @@ System.out.println("Start CANT ");
   public static void saveAllNets() {
     System.out.println("save all nets");
   
-    Enumeration enum = nets.elements();
-    while (enum.hasMoreElements()) {
-      CANTNet net = (CANTNet)enum.nextElement();
+    Enumeration eNum = nets.elements();
+    while (eNum.hasMoreElements()) {
+      CANTNet net = (CANTNet)eNum.nextElement();
       net.write();
     }
   }
@@ -75,9 +75,9 @@ System.out.println("initialize Experiment ");
 	if (experiment.isEndEpoch(CANTStep))
 	   experiment.endEpoch();
 
-    Enumeration enum = nets.elements();
-    while (enum.hasMoreElements()) {
-      CANTNet net = (CANTNet)enum.nextElement();
+    Enumeration eNum = nets.elements();
+    while (eNum.hasMoreElements()) {
+      CANTNet net = (CANTNet)eNum.nextElement();
       net.runOneStep(CANTStep);
     }
     CANTStep++;

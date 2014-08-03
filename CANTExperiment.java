@@ -10,12 +10,12 @@ public class CANTExperiment {
   public boolean getInTest(){return inTest;}
   
   protected CANTNet getNet(String otherNetName) {
-    Enumeration enum = CANT23.nets.elements();
-    CANTNet net = (CANTNet)enum.nextElement();
+    Enumeration eNum = CANT23.nets.elements();
+    CANTNet net = (CANTNet)eNum.nextElement();
     String netName = net.getName();
     while (netName.compareTo(otherNetName) != 0) 
       {
-      net = (CANTNet)enum.nextElement();
+      net = (CANTNet)eNum.nextElement();
       netName = net.getName();
       }
     return (net);
@@ -40,13 +40,13 @@ public class CANTExperiment {
   }
 
   public void endEpoch() {
-    Enumeration enum = CANT23.nets.elements();
+    Enumeration eNum = CANT23.nets.elements();
 	CANTNet net;
     do	{
-      net = (CANTNet)enum.nextElement();
+      net = (CANTNet)eNum.nextElement();
       net.clear();
     }
-    while (enum.hasMoreElements());
+    while (eNum.hasMoreElements());
   }
   
  

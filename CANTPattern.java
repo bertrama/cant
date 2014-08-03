@@ -7,7 +7,7 @@ public class CANTPattern {
     private CANTNet net;
     private int[] patternIndexes;
     private int size;
-    private java.util.Vector miniPatterns = new java.util.Vector();
+    private java.util.Vector  miniPatterns = new java.util.Vector();
 
     public int size() {return size; }
     public int getPatternIndex(int i) {return patternIndexes[i];}

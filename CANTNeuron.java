@@ -97,7 +97,7 @@ public class CANTNeuron {
       try {
         inputLine = inputFile.readLine();
         tokenizedLine = new StringTokenizer(inputLine);
-  	    toNetName=tokenizedLine.nextToken();
+        toNetName=tokenizedLine.nextToken();
         paramString=tokenizedLine.nextToken();
         toNeuronID = Integer.parseInt(paramString);
         paramString=tokenizedLine.nextToken();

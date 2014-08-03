@@ -51,6 +51,11 @@ public class NetManager {
 	Integer.parseInt(nodeMap.getNamedItem("Topology").getNodeValue()));
 	
 
+    //If you cant get the specialised net topology make sure you have
+    //getNewNet defined in the net file
+    //System.out.println(nullNet.getClass().getName());
+    //System.out.println(net.getClass().getName());
+
     net.setActivationThreshold(Double.parseDouble(nodeMap.getNamedItem("activationThreshold").getNodeValue()));
     net.setAxonalStrengthMedian(Double.parseDouble(nodeMap.getNamedItem("axonalStrengthMedian").getNodeValue()));
     net.setChangeEachTime(getBoolFromString(nodeMap.getNamedItem("changeEachTime").getNodeValue()));

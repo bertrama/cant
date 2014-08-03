@@ -1,0 +1,1 @@
+c:\jre6\bin\java -classpath ".\CABot1;.\utils;." -mx1200200000 CABot1
