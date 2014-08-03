@@ -1,1 +1,0 @@
-"C:\Program Files\java\jdk1.6.0_03\bin\java" -classpath ".\CABot2;.\utils;." -mx400200000 CABot2

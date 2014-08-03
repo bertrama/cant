@@ -1,0 +1,47 @@
+I brought this from parse3.  Parse3 is a nice start but needs major rework,
+hence the switch.  The things (from parse3/thoughts/notes) that are needed 
+are:
+
+  1. Separate bar-two rules from bar-one rules and use less decay to
+allow better semantic input.
+  2. Add extra slot rules.
+  3. Incorporate more flexibility in the oracle to allow hierarchical 
+influences.
+  4. Sort out instance problems (shortness and symbolic reset).
+
+Allowed nouns and verbs (Access -> Semantics) to be read from a file. Could
+also add in input to access for noun, verb, and other.  Could also add
+in access->rule.
+
+There was a problem with an actor rule.  Fix that.  Need to hook in
+time from NPs.  I did this and it now works for Move left. Center the
+pyramid. I found the gun. and The pyramid is to the left.  It is
+closely timed.
+
+I will need to put time into VPs (5.) and hook them in. Put this in.
+
+6. I'm also going to need to figure out timing.  
+
+I put instrument in and it took a couple of hours.  Don't forget the
+instrument done feature.
+
+I adjusted timing and it's close.  Sep1908
+
+7. np v pp can attach the pp to the np.  Need to close off the np.  This
+will require a done feature for an instance, and that linked in to things.
+
+Added NPAddsAdj rule.
+
+1,2,5,6 done.  7 Can defer indefinitely.
+
+Hierarchical influences added.  There is a problem here that multiple 
+connections to the same preference rule keep only the last.  There is
+also a lack of preposition influence on the decision.
+
+8. I should also remove the symbolic noruleactive hook (undone in Experiment)
+
+The instance problem is sorted out.  It now does this subsymbolically.  It
+does do a reset after every parse.
+
+Oh, I also now close off the NP using a feature.  This feature only prevents 
+the VP -> NPact VP rule.

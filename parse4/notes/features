@@ -1,0 +1,228 @@
+Two types of instances, verb and noun.
+
+for now don't worry about the + features
+Verb features
+  2 base     (implemented) 0-39
+  baroneDone (implemented) 40-59
+  adv       obj-done
+  negative  act-done
+  passive   loc-done
+  base-verb (implemented) (120-300 fastbind)
+  which others are on  (implemented) 140-159
+  actor  (implemented) 160-179
+  object (implemented) 180-199
+  ind-object 
+  instrument (implemented) 220-239
+  location (implemented) 240-259
+  time tense-done 260-279
+  scomp 
+  (what about person and number)
+  (what about modality and tense)
+
+Noun features
+  0-39 core
+  40-59 barone done
+  60-79 prep on
+  (80-160 fastbind) 
+  which others are on 80-99
+  prep bind (turned off) 100-119 
+  main noun 120-139
+  det 140-159 (could be a non-bind for now)
+  adj1 160-179 (could be a non-bind for now)
+  adj2 180-199 done slot
+  ppmod 200-219 
+  relclause 220-239 (not implemented yet)
+  bind slot 260-279 (this is what the other things bind to)
+  bound slot 280-299 (this says the instance is bound)
+  time neurons 300-459
+  (what about person and number)
+  
+
+-----Noun semantic features
+I used wn amoun -hypen to get a list of hypernyms for these words
+from wordnet.  I then chose what I thought was the best sense for
+the videogame domain, and consistently pruned.  My nouns that wordnet
+gave no information on (e.g. anyone) aren't included below.
+
+amount property abstract-entity
+anything thing physical-entity
+back position location object physical-entity
+beast living-thing object physical-entity
+bottom part location object physical-entity
+boy person living-thing object physical-entity
+button mechanism device artefact object physical-entity
+chamber room area artefact object physical-entity
+circle object physical-entity
+computer mechanism device artefact object physical-entity
+detail information psychological-feature abstract-entity
+device artefact object physical-entity
+door barrier artefact object physical-entity
+dude person living-thing object physical-entity
+editor worker person living-thing object physical-entity
+enemy person living-thing object physical-entity
+experience knowledge psychological-feature abstract-entity
+forward position location object physical-entity
+front side artefact object physical-entity
+gate barrier artefact object physical-entity
+girl person living-thing object physical-entity
+gun weapon device artefact object physical-entity
+handle part object physical-entity
+hello message abstract-entity
+here location object physical-entity
+hurry state abstract-entity
+idea knowledge psychological-feature abstract-entity
+interest state-of-mind state abstract-entity
+lawyer worker person living-thing object physical-entity
+leader worker person living-thing object physical-entity
+least state-of-mind state abstract-entity
+left position location object physical-entity
+man person living-thing object physical-entity
+matrix space location object physical-entity
+money possession abstract-entity
+name part abstract-entity
+no communiction abstract-entity
+nobody person living-thing object physical-entity
+none information psychological-feature abstract-entity
+nothing thing physical-entity
+nowhere location object physical-entity
+obelisk artefact object physical-entity
+ok communication abstract-entity
+part object physical-entity
+path location object physical-entity
+person living-thing object physical-entity
+place location object physical-entity
+pyramid artefact object physical-entity
+ready state abstract-entity
+reporter worker person living-thing object physical-entity
+right position location object physical-entity
+roger communication abstract-entity
+senator worker person living-thing object physical-entity
+side location object physical-entity
+someone person living-thing object physical-entity
+something thing physical-entity
+somewhere location object physical-entity
+sound property abstract-entity
+stalactite artefact object physical-entity
+switch mechanism device artefact object physical-entity
+system device artefact object physical-entity
+teleport device artefact object physical-entity
+telescope instrument device artefact object physical-entity
+thanks communication abstract-entity
+there location object physical-entity
+thing physical-entity
+time abstract-entity
+top part location object physical-entity
+way property abstract-entity
+weapon device artefact object physical-entity
+whole object physical-entity
+writer worker person living-thing object physical-entity
+yellow visual-property property abstract-entity
+yes communication abstract-entity
+
+0  abstract-entity
+1  area
+2  artefact
+3  barrier
+4  communication
+5  device
+6  information
+7  instrument
+8  knowledge
+9  living-thing 
+10 location
+11 mechanism
+12 message
+13 object
+14 part
+15 person
+16 physical-entity
+17 position
+18 property
+19 psychological-feature 
+20 room
+21 side
+22 space
+23 state
+24 state-of-mind
+25 thing
+26 visual-property
+27 weapon
+28 worker
+
+
+-----Verb semantic features
+I went for John Platts' verb ontology.  It has more levels than word net.
+
+1 admire direct-positive-feel mental-short-term intrapersonal-passive
+2 admit 
+3 attack act-against workon-others nonphysical interpersonal-volitional
+4 become change aspect-description
+5 call verbally communicate nonphysical interpersonal-volitional
+6 check ascertain think mental-short-term intrapersonal-passive
+7 come move-in-particular-direction move-elsewhere physical-short-term intra-personal-volitional
+8 cry indicate-sadness by-expression nonverbally communicate nonphysical interpersonal-volitional
+9 describe
+10 die physical-longterm intrapersonal-passive
+11 do
+12 drop
+13 fill
+14 find without-permission-ofanother not-for-consideration receive change-ownership physical interpersonal-volitional
+15 follow
+16 get
+17 give
+18 go
+19 have
+20 hear
+21 hire
+22 hold
+23 is
+24 keep
+25 know
+26 let
+27 like
+28 make
+29 move physical interpersonal-volitional
+30 need
+31 open
+32 please
+33 push
+34 put
+35 see
+36 seem
+37 shoot
+38 show
+39 stay
+40 stop
+41 take
+42 touch
+43 try
+44 *turn physical interpersonal-volitional
+45 walk
+
+*I filled in these
+
+
+features
+1 act-against 
+2 ascertain 
+3 aspect-description
+4 by-expression 
+5 change 
+6 change-ownership 
+7 communicate 
+8 direct-positive-feel 
+9 indicate-sadness 
+10 interpersonal-volitional
+11 intrapersonal-passive
+12 mental-short-term 
+13 nonphysical 
+14 nonverbally 
+15 not-for-consideration 
+16 physical 
+17 physical-longterm 
+18 receive 
+19 think 
+20 verbally 
+21 without-permission-ofanother 
+22 workon-others 
+

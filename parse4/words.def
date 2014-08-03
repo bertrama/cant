@@ -1,0 +1,24 @@
+left noun 0 10 13 16 17
+pyramid noun 1 2 13 16
+it noun 2
+stalactite noun 3 2 13 16
+I noun 4
+gun noun 5 2 13 16
+girl noun 6 9 13 15
+telescope noun 7
+door noun 8 2 3 13 16
+handle noun 9 13 14 16
+right noun 10
+forward noun 11
+backward noun 12
+wrong noun 13
+that noun 14
+boy noun 15 9 13 15
+gate noun 16 2 3 13 16
+move verb 0 10 16
+turn verb 1 10 16
+found verb 2
+saw verb 3
+go verb 4
+is verb 5
+center verb 6

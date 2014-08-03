@@ -1,0 +1,1 @@
+"C:\Program Files\java\jdk1.6.0_03\bin\java" -classpath ".\parse4;." -mx30020000 Parse4

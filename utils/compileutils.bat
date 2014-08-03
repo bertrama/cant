@@ -1,1 +1,0 @@
-C:\jdk6\bin\javac -classpath "C:\progs\cant\CANT23;." BmpReader.java 

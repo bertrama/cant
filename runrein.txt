@@ -1,1 +1,0 @@
-"C:\Program Files\java\jdk1.6.0_03\bin\java" -classpath ".\rein;." -mx120020000 CANT23Rein
