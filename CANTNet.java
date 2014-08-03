@@ -303,6 +303,12 @@ public class CANTNet {
       cantFrame.setVisible(true);
     }
 
+    // kailash
+    public void addNewPattern(CANTPattern pattern) {
+    	patterns = new Vector();
+    	patterns.add(pattern);
+    }
+
     public void addPattern(CANTPattern pattern) {
       patterns.add(pattern);
     }

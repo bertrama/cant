@@ -19,9 +19,7 @@ public class CANTNeuronFastBind extends CANTNeuron {
     fastBindWeightChange = weightChange; 
   }
 
-
-
-  private double fastBindWeightChange = 0.004; 
+  private double fastBindWeightChange = 0.004;
   
   public void fastLearn() {
     double weight = 0.0;

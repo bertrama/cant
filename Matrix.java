@@ -5,10 +5,11 @@ public class Matrix extends Panel{
   private static final int TOP_BORDER=10, LEFT_BORDER=10;
   public static final int SQUARE_SIZE = 6;//12;
 
+  private int NUM_LABELS = 70;
   private int cols,rows;
   private int[][] cells;
   private String[] textToPrint;
-  private int [] textPosToPrint=new int[30];
+  private int [] textPosToPrint=new int[NUM_LABELS];
   private int textHPosToPrint;
   private int numTexts=0;
 
@@ -18,7 +19,7 @@ public class Matrix extends Panel{
       rows = Rows;
       this.setBounds(LEFT_BORDER, TOP_BORDER, cols*SQUARE_SIZE, rows*SQUARE_SIZE);
       cells=new int [cols][rows];
-      textToPrint=new String[30];
+      textToPrint=new String[NUM_LABELS];
       textPosToPrint[0] = -1;
       textHPosToPrint = -1;
       clear();

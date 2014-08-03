@@ -9,7 +9,7 @@ public class CANTExperiment {
   
   public boolean getInTest(){return inTest;}
   
-  protected CANTNet getNet(String otherNetName) {
+  public static CANTNet getNet(String otherNetName) {
     Enumeration eNum = CANT23.nets.elements();
     CANTNet net = (CANTNet)eNum.nextElement();
     String netName = net.getName();

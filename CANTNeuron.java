@@ -4,7 +4,7 @@ import java.util.*;
 public class CANTNeuron {
 
   public static boolean flag = true;
-  private static final int SYNAPSES_TO_ALLOC = 500;
+  private static final int SYNAPSES_TO_ALLOC = 800;
 
   protected double currentActivation;
   protected boolean isInhibitory;
@@ -146,9 +146,9 @@ public class CANTNeuron {
 
     //read the neuron ID
     try {
-  	  inputLine = inputFile.readLine();
+      inputLine = inputFile.readLine();
       tokenizedLine = new StringTokenizer(inputLine);
-//	  System.out.println(inputLine);
+      //  System.out.println(inputLine);
       paramString=tokenizedLine.nextToken();
       testID = Integer.parseInt(paramString);
     }
@@ -163,6 +163,7 @@ public class CANTNeuron {
     try {
       inputLine = inputFile.readLine();
       tokenizedLine = new StringTokenizer(inputLine);
+      // System.out.println(inputLine);
       paramString=tokenizedLine.nextToken();
       axonsToRead = Integer.parseInt(paramString);
     }
@@ -176,20 +177,20 @@ public class CANTNeuron {
       try {
         inputLine = inputFile.readLine();
         tokenizedLine = new StringTokenizer(inputLine);
-		toNetName=tokenizedLine.nextToken();
-		if (parentNet.getName().compareTo(toNetName) != 0)  
-		  {
-		  if (readInterConnections)
+	toNetName=tokenizedLine.nextToken();
+	if (parentNet.getName().compareTo(toNetName) != 0)  
+	  {
+	      //System.out.println(testID + " " + toNetName + " " + parentNet.getName());
+	  if (readInterConnections)
             System.out.println("reading multiple nets not yet supported");  
-		  }	
-        else 
-		  {
+	  }	
+        else {
           paramString=tokenizedLine.nextToken();
           toNeuronID = Integer.parseInt(paramString);
           paramString=tokenizedLine.nextToken();
           tempDouble = new Double(paramString);
-  	      Weight =  tempDouble.doubleValue();
-		  }
+  	  Weight =  tempDouble.doubleValue();
+	  }
       }
     
       catch (IOException e) {
