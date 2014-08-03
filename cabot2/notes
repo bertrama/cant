@@ -1,0 +1,4 @@
+If you want to run CABot2 with crystal space
+  1. delete cABotToCSCommand.txt in data
+  2. startup cs ./simple2 in the cs directory
+  3. startup cabot.  It will use the last command from cs.

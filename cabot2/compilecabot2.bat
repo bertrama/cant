@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.6.0_03\bin\javac" -classpath "C:\progs\cant\CANT23;c:\progs\cant\CANT23\utils;." CABot2Experiment.java CABot2Net.java CABot2.java 

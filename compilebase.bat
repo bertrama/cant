@@ -1,0 +1,1 @@
+"C:\Program Files\java\jdk1.6.0_03\bin\javac" CANT23.java CANTCheckboxMenuItem.java CANTExperiment.java CANTFrame.java CANTMenuItem.java CANTNet.java CANTNeuron.java CANTPattern.java Measure.java NetManager.java Synapse.java
