@@ -259,7 +259,7 @@ public class CANTNeuron {
     }
     public boolean spontaneouslyActivate(){
       if (!parentNet.isSpontaneousActivationOn()) return false;
-      if (Math.random() <= 0.01) return true;
+      if (Math.random() <= 0.03) return true;
       return false;
     }
 

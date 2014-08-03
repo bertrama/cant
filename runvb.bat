@@ -1,0 +1,1 @@
+c:\jre6\bin\java -classpath ".\vb;." CANT23VB

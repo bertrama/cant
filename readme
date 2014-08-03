@@ -1,0 +1,24 @@
+This is the code for the variable binding experiments described by Huyck
+
+It's just standard java, but the paths for the vb directory are important.
+If you move the java files in the vb directory up, you'll have to rename
+the xml file variables in the java files in that directory.
+
+Some .bat files are provided.
+If you unzip this, you should first 
+run compilebase.bat (you may need to modify the .bat file so the path points
+  to your javac).
+cd vb
+compilevb.bat (again, you may need to modify the path to point to javac but
+also modify the classpath to point to the directory with CANT23 in it)
+cd ..
+runvb.bat
+
+That should run the fast bind experiment.
+
+If you want to run the ltp experiment, go to the CANT23VB file and
+set runFastBindTest=false; (6 lines down).
+
+If you want to modify the epoch lengths, try to modify the trainBaseCAs
+and bindEpochLength settings in the constructor.
+

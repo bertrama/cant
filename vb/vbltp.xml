@@ -1,0 +1,98 @@
+<Nets>
+	<Net Name ="letter" Cols ="40" Rows="40" Topology="-1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "1.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="A"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="159" />
+			</Pattern>
+			<Pattern Name="B"  Number="2" >
+				<Rectangle StartIndex="160" EndIndex="319" />
+			</Pattern>
+			<Pattern Name="C"  Number="3" >
+				<Rectangle StartIndex="320" EndIndex="479" />
+			</Pattern>
+			<Pattern Name="D"  Number="4" >
+				<Rectangle StartIndex="480" EndIndex="639" />
+			</Pattern>
+			<Pattern Name="E"  Number="5" >
+				<Rectangle StartIndex="640" EndIndex="799" />
+			</Pattern>
+			<Pattern Name="F"  Number="6" >
+				<Rectangle StartIndex="800" EndIndex="959" />
+			</Pattern>
+			<Pattern Name="G"  Number="7" >
+				<Rectangle StartIndex="960" EndIndex="1119" />
+			</Pattern>
+			<Pattern Name="H"  Number="8" >
+				<Rectangle StartIndex="1120" EndIndex="1279" />
+			</Pattern>
+			<Pattern Name="I"  Number="9" >
+				<Rectangle StartIndex="1280" EndIndex="1439" />
+			</Pattern>
+			<Pattern Name="J"  Number="10" >
+				<Rectangle StartIndex="1440" EndIndex="1599" />
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="bind" Cols ="20" Rows="20" Topology="-1" activationThreshold="7"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.8"  
+	decay="5" fatigueRate= "1.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="28"  spontaneousActivationOn="true" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="one"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="399" />
+			</Pattern>
+			<Pattern Name="two"  Number="2" >
+				<Rectangle StartIndex="400" EndIndex="799" />
+			</Pattern>
+		</Patterns>
+	</Net>
+	<Net Name ="BaseNet" Cols ="40" Rows="40" Topology="-1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="2" connectionStrength="0.02" connectivity="0.8"  
+	decay="1.5" fatigueRate= "1.0" fatigueRecoveryRate="2.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="one"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="159" />
+			</Pattern>
+			<Pattern Name="two"  Number="2" >
+				<Rectangle StartIndex="160" EndIndex="319" />
+			</Pattern>
+			<Pattern Name="three"  Number="3" >
+				<Rectangle StartIndex="320" EndIndex="479" />
+			</Pattern>
+			<Pattern Name="four"  Number="4" >
+				<Rectangle StartIndex="480" EndIndex="639" />
+			</Pattern>
+			<Pattern Name="five"  Number="5" >
+				<Rectangle StartIndex="640" EndIndex="799" />
+			</Pattern>
+			<Pattern Name="six"  Number="6" >
+				<Rectangle StartIndex="800" EndIndex="959" />
+			</Pattern>
+			<Pattern Name="seven"  Number="7" >
+				<Rectangle StartIndex="960" EndIndex="1119" />
+			</Pattern>
+			<Pattern Name="eight"  Number="8" >
+				<Rectangle StartIndex="1120" EndIndex="1279" />
+			</Pattern>
+			<Pattern Name="nine"  Number="9" >
+				<Rectangle StartIndex="1280" EndIndex="1439" />
+			</Pattern>
+			<Pattern Name="ten"  Number="10" >
+				<Rectangle StartIndex="1440" EndIndex="1599" />
+			</Pattern>
+		</Patterns>
+	</Net>
+</Nets>
