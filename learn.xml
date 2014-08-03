@@ -1,0 +1,65 @@
+<Nets>
+
+	<Net Name ="BaseNet" Cols ="20" Rows="20" Topology="1" activationThreshold="4"  
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="3" connectionStrength="0.02" connectivity="0.4"
+	decay="1.5" fatigueRate= "1.0" fatigueRecoveryRate="2.4" learningRate="0.15"
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="50" >
+		<Patterns>
+			<Pattern Name="Goal 1"  Number="0" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+			</Pattern>
+			<Pattern Name="Goal 2"  Number="1" >
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="ValueNet" Cols ="20" Rows="20" Topology="25" activationThreshold="4"
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02"  connectivity="0.4"
+	decay="2.0" fatigueRate= "1.0" fatigueRecoveryRate="1.0" learningRate="0.1" 
+	likelihoodOfInhibitoryNeuron="30" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false" 
+	cyclesPerRun="10" >
+		<Patterns>
+			<Pattern Name="line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="399" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="ActionNet" Cols ="20" Rows="20" Topology="16" activationThreshold="4"
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02"  connectivity="0.2"
+	decay="2.0" fatigueRate= "1.0" fatigueRecoveryRate="2.2" learningRate="0.15" 
+	likelihoodOfInhibitoryNeuron="20" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="false"
+	cyclesPerRun="10" >
+		<Patterns>
+			<Pattern Name="Act 1"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="199" />
+			</Pattern>
+			<Pattern Name="Act 2"  Number="2" >
+				<Rectangle StartIndex="200" EndIndex="399" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+	<Net Name ="ExploreNet" Cols ="20" Rows="20" Topology="25" activationThreshold="4"
+	axonalStrengthMedian="0.5" changeEachTime ="false"  compensatoryDivisor="1" 
+	learningOn="0" connectionStrength="0.02"  connectivity="0.4"
+	decay="2.0" fatigueRate= "1.0" fatigueRecoveryRate="1.0" learningRate="0.01" 
+	likelihoodOfInhibitoryNeuron="35" neuronsFatigue="true" 
+	neuronsToStimulate="0" saturationBase="21"  spontaneousActivationOn="true" 
+	cyclesPerRun="10" >
+		<Patterns>
+			<Pattern Name="line"  Number="1" >
+				<Rectangle StartIndex="0" EndIndex="399" />
+			</Pattern>
+		</Patterns>
+	</Net>
+
+</Nets>

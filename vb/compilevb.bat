@@ -1,1 +1,0 @@
-C:\jdk6\bin\javac -classpath "C:\progs\cant\cantvb" CANT23VB.java VBExperiment.java VBNet.java 
